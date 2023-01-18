@@ -1,0 +1,24 @@
+no default product defined for resource com.android.systemui:string/power_remaining_duration_only_shutdown_imminent.
+将values/string.xml中对应值的product改为default
+
+
+MIPI CSI-2 D-PHY参数计算
+色深（Color Depth）：定义一个像素点所需的bits（bpp bits-per-pixel），或者定义一个color component所需的bits（bpc bits-per-component）。
+	像素时钟：每帧像素传输所用频率（the time base in MHz at which individual pixels are transmitter）
+	带宽：the capacity of required in Mbps of a given system to pass a specific frequency
+	数据率：the data flow throughtput in bits per second  of transport layer
+	bit clock：因为D-PHY信号是Double data rate，其bit clock是数据率/lane的1/2。
+
+	像素时钟 = 水平像素数 * 垂直像素数 * 刷新率 （像素数包括消隐数据）
+	带宽/数据率 = 像素时钟 * 色深
+	数据率/lane = 数据率/lane number
+	bit clock = 数据率/lane/2
+
+	以1902*1080p @ 60hz， raw10，2 lane为例：
+	像素时钟 = 2200 * 1125 * 60 = 148.5MHz
+	带宽/数据率 = 148.5 * 10 = 1.485Gbps
+	lane rate = 1.1485/2 = 742.5Mbps
+    bit clock = 742.5/2 = 371.25MHz
+	
+
+	
