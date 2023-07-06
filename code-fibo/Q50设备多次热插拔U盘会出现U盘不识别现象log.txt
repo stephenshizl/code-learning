@@ -1,0 +1,1915 @@
+
+shell@Sf3gr_mrd6_p2:/ $
+shell@Sf3gr_mrd6_p2:/ $
+shell@Sf3gr_mrd6_p2:/ $
+shell@Sf3gr_mrd6_p2:/ $
+shell@Sf3gr_mrd6_p2:/ $ [  597.?TEST
+[     1.182]---------- Starting PSI FLASH ----------
+[     1.186]FPSI: Intialized CGU and EBU
+[     1.190]FPSI: PSI Flash Version: 1619.600_M1S1
+[     1.194]FPSI: IMC Chipset Info (ID: 0x00000061, Revision: 0x00000010)
+[     1.201]FPSI: IMC Chipset Info (SNUM1: 0x140C1160, SNUM2: 0x91211060, SNUM3:                                                                                         0x116B2048)
+[     1.209]FPSI: SCU_RSTSR: 0x80008003
+[     1.213]FPSI: PMU_RSTSR: 0x00010008
+[     1.216]FPSI: PMU_SHTSR: 0x00000000
+[     1.220]FSPI: Starting loading SLB from storage
+[     1.449]FPSI: SLB load addr:0x00002000
+[     1.453]FPSI:Start SLB:0x00002000
+[     1.457]Jump to SLB:0x00002400
+[     1.463]------------- Starting SLB -------------
+[     1.647]------------- Set the gpio 48 pullup input -------------
+[     1.653]********** slbchr_configure_chgdet_interrupt **********
+
+[     1.659]********** slbchr_configure_chgdet_interrupt 0x00000003 SLBCHR_PMU_I                                                                                        MSC**********
+
+[     1.667]********** slbchr_configure_chgdet_interrupt 0x00000000 SLBCHR_PMU_R                                                                                        IS**********
+
+[     1.676]********** slbchr_configure_chgdet_interrupt 0x00000000 SLBCHR_PMU_M                                                                                        IS**********
+
+[     1.684]********** slbchr_configure_chgdet_interrupt 0x28548220 SLBCHR_PMU_C                                                                                        0_IRQSM**********
+
+[     1.693]********** slbchr_configure_chgdet_interrupt 0x2f842020 SLBCHR_PMU_C                                                                                        1_IRQSM**********
+
+[     1.703]chr_type:3
+
+[     1.880]VRL: before read partition table
+[     2.456]VRL: after read partition table
+[     2.469]get_device_state return locked
+[     2.479]Error: Failed to read user keystore
+[     2.483]selected OEM keystore
+[     2.487]BootSignature format version 1
+
+[     2.491]keystore hash is ffffffc8ffffffc0-ffffffd633-256d
+[     2.547]selected keystore verified
+[     2.551]slb_software_reset_check_for_startup_cause
+[     2.556]slb_long_key_check_for_startup_cause
+[     2.560]Mode Management: Start mode management with reason 1
+[     2.571]reset_source=0x10008
+[     2.594]NVM: before nvm init
+[     2.920]NVM: after nvm init
+[     2.922]Mode Management: transition to mode 2
+[     2.927]***********charger_check_for_battery_voltage*********
+
+[     3.059]charger_check_for_battery_voltage get vbat = 4294/3500mv
+
+[     3.065]*********charger_check_for_battery_voltage OK*********
+
+[     3.207]********** BOOT OCV = 4294 **********
+
+[     3.211] - MRD6s board detected
+[     3.214]display_drv_update_screen: start panel index:1
+
+[     3.259]screen_type 7, disp_clk_rate 297000000
+[     3.264]DSI: invalid fps 0, set to default
+[     3.268]using dts default parameters
+[     3.272]Enable lcd clk: 297000000
+[     3.285]MIPI-DSI @370000000 bps (184,12): 0x3018d718 0x1f608f19 0x2770a824 0                                                                                        x000001f5)
+[     3.877]MIPI-DSI video:0x0748b42c 0x03ff1400 0x00020a16 0x07080001 0x0708000                                                                                        0 0x000011f9 0x07080708)
+[     3.886]MIPI-DSI @370000000 bps (184,12): 0x3018d718 0x1f608f19 0x2770a824 0                                                                                        x000001f5)
+[     3.894]MIPI-DSI video: dsicfg 0x0300704c
+[     3.898]display_drv_update_screen: ret=0
+
+[     3.902]RPMB: before rpmb provision
+[     4.167]RPMB: after rpmb provision
+[     4.170]SLB Main: Start slb logic load upload
+[     4.177]get_device_state return locked
+[     4.181]Load partition with secpack: id = 0x73
+[     4.191]Load partition [0x73]: loadmap index = 0, size = 0xa616
+[     4.203]Validate partition [0x73] HASH start
+[     4.208]Validate partition [0x73] HASH done
+[     4.212]-----------------------------------------------------
+[     4.218]Load partition with secpack: id = 0x1
+[     4.228]Load partition [0x1]: loadmap index = 0, size = 0xb12ac
+[     4.247]Validate partition [0x1] HASH start
+[     4.251]Validate partition [0x1] HASH done
+[     4.256]-----------------------------------------------------
+[     4.261]Load partition with secpack: id = 0x76
+[     4.271]Load partition [0x76]: loadmap index = 0, size = 0x1b5610
+[     4.302]Validate partition [0x76] HASH start
+[     4.307]Validate partition [0x76] HASH done
+[     4.311]-----------------------------------------------------
+[     4.317]Load partition with secpack: id = 0x47
+[     4.327]Load partition [0x47]: loadmap index = 0, size = 0x76f527
+[     4.421]Validate partition [0x47] HASH start
+[     4.425]Validate partition [0x47] HASH done
+[     4.430]Reallocate partition 0x47 start
+[     4.436]get_device_state return locked
+[     4.441]BootSignature format version 1
+
+[     4.445]BootSignature format version 1
+
+[     5.282]bootimage verified
+[     5.492]Reallocate partition 0x47 done
+[     5.496]-----------------------------------------------------
+[     5.507]Load partition [0x71]: loadmap index = 0, size = 0x1c00
+[     5.513]Validate partition [0x71] HASH start
+[     5.518]Validate partition [0x71] HASH done
+[     5.522]SLB process mode before system start
+[     5.526]memory size = 1073741824
+[     5.530]SLB certdata to system before system start
+[     5.534]SLB copy image before system start
+[     5.539]Cleaning up before jumping to system: 0x1CC503DC
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.14.0 (public1@ubuntu001) (gcc version 4.6.3 (Ubun                                                                                        tu/Linaro 4.6.3-1ubuntu5) ) #3 SMP PREEMPT Sat May 14 21:00:58 CST 2016
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000001bbfffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000001bc00000-0x000000001fffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000020000000-0x000000003fffffff] usable
+[    0.000000] bootconsole [earlyxgold0] enabled
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] e820: update [mem 0x00600000-0x00633f21] usable ==> usable
+[    0.000000] extended physical RAM map:
+[    0.000000] reserve setup_data: [mem 0x0000000000000000-0x00000000005fffff] u                                                                                        sable
+[    0.000000] reserve setup_data: [mem 0x0000000000600000-0x0000000000633f21] u                                                                                        sable
+[    0.000000] reserve setup_data: [mem 0x0000000000633f22-0x000000001bbfffff] u                                                                                        sable
+[    0.000000] reserve setup_data: [mem 0x000000001bc00000-0x000000001fffffff] r                                                                                        eserved
+[    0.000000] reserve setup_data: [mem 0x0000000020000000-0x000000003fffffff] u                                                                                        sable
+[    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000000] e820: last_pfn = 0x40000 max_arch_pfn = 0x1000000
+[    0.000000] MTRR default type: uncachable
+[    0.000000] MTRR variable ranges enabled:
+[    0.000000]   0 base 000000000 mask 080000000 write-back
+[    0.000000]   1 base 0FFF00000 mask 0FFFE0000 write-back
+[    0.000000]   2 base 0FFFC0000 mask 0FFFC0000 write-back
+[    0.000000]   3 disabled
+[    0.000000]   4 disabled
+[    0.000000]   5 disabled
+[    0.000000]   6 disabled
+[    0.000000]   7 disabled
+[    0.000000] x86 PAT enabled: cpu 0, old 0x7050400070106, new 0x7010600070106
+[    0.000000] e820: update [mem 0x80000000-0xffefffff] usable ==> reserved
+[    0.000000] e820: update [mem 0xfff20000-0xfffbffff] usable ==> reserved
+[    0.000000] initial memory mapped: [mem 0x00000000-0x01ffffff]
+[    0.000000] Base memory trampoline at [8009c000] 9c000 size 16384
+[    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+[    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+[    0.000000] init_memory_mapping: [mem 0x3fe00000-0x3fffffff]
+[    0.000000]  [mem 0x3fe00000-0x3fffffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x3c000000-0x3fdfffff]
+[    0.000000]  [mem 0x3c000000-0x3fdfffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x00100000-0x1bbfffff]
+[    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+[    0.000000]  [mem 0x00200000-0x1bbfffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x20000000-0x3bffffff]
+[    0.000000]  [mem 0x20000000-0x3bffffff] page 2M
+[    0.000000] Reserved memory: 'region@0' reserve CMA default limit 0x00000000,                                                                                         size 192 MiB
+[    0.000000] cma: CMA: reserved 192 MiB at 34000000
+[    0.000000] RAMDISK: [mem 0x00400000-0x00537fff]
+[    0.000000] 1024MB LOWMEM available.
+[    0.000000]   mapped low ram: 0 - 40000000
+[    0.000000]   low ram: 0 - 40000000
+[    0.000000] Zone ranges:
+[    0.000000]   Normal   [mem 0x00001000-0x3fffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00001000-0x0009ffff]
+[    0.000000]   node   0: [mem 0x00100000-0x1bbfffff]
+[    0.000000]   node   0: [mem 0x20000000-0x3fffffff]
+[    0.000000] On node 0 totalpages: 244639
+[    0.000000] free_area_init_node: node 0, pgdat 813aa440, node_mem_map b380002                                                                                        0
+[    0.000000]   Normal zone: 2048 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 244639 pages, LIFO batch:31
+[    0.000000] Using APIC driver sofia
+[    0.000000] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[    0.000000] xgold_pstore_ram: reserved RAM buffer (0x219000@0x3355d000)
+[    0.000000] e820: [mem 0x40000000-0xffffffff] available for PCI devices
+[    0.000000] Booting XGOLD kernel
+[    0.000000] setup_percpu: NR_CPUS:4 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_id                                                                                        s:1
+[    0.000000] PERCPU: Embedded 14 pages/cpu @b3523000 s33152 r0 d24192 u57344
+[    0.000000] pcpu-alloc: s33152 r0 d24192 u57344 alloc=14*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pag                                                                                        es: 242591
+[    0.000000] Kernel command line: androidboot.bootloader=1619.600_M1S1 android                                                                                        boot.serialno=0123456789012345 pmu_rst_src=0x00010008 pmu_shutdwn_src=0x00000000                                                                                         scu_rsts=0x80008003 rtcalarm=false boot_ocv=4294 androidboot.wakesrc=1 androidb                                                                                        oot.mode=normal panelsource=1 rootfstype=ramfs console=ttyS0,115200n8 idle=halt                                                                                         earlyprintk=xgold debug notsc androidboot.hardware=sofia3g cma=160M nolapic_pm f                                                                                        irmware_class.path=/system/vendor/firmware androidboot.selinux=permissive slub_m                                                                                        ax_order=0 ptrace.ptrace_can_access=1 mvpipe.at_dbg_port=1 loglevel=8 console=lo                                                                                        gk0 nolapic_timer x86_intel_xgold_timer=soctimer_only sf3gr_mrd_version=P2.0
+[    0.000000] ***** BOOT OCV = 4294
+[    0.000000] tsc: Kernel compiled with CONFIG_X86_TSC, cannot disable TSC comp                                                                                        letely
+[    0.000000] backlight:P2.0
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Initializing CPU#0
+[    0.000000] allocated 2097144 bytes of page_cgroup
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memor                                                                                        y cgroups
+[    0.000000] Memory: 750180K/978556K available (7367K kernel code, 1563K rwdat                                                                                        a, 3192K rodata, 564K init, 3284K bss, 228376K reserved)
+[    0.000000] virtual kernel memory layout:
+[    0.000000]     fixmap  : 0xfffa7000 - 0xfffff000   ( 352 kB)
+[    0.000000]     vmalloc : 0xc0800000 - 0xfffa5000   (1015 MB)
+[    0.000000]     lowmem  : 0x80000000 - 0xc0000000   (1024 MB)
+[    0.000000]       .init : 0x813da000 - 0x81467000   ( 564 kB)
+[    0.000000]       .data : 0x80f3215d - 0x813d8f40   (4763 kB)
+[    0.000000]       .text : 0x80800000 - 0x80f3215d   (7368 kB)
+[    0.000000] Checking if this processor honours the WP bit even in supervisor                                                                                         mode...Ok.
+[    0.000000] SLUB: HWalign=64, Order=0-0, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] NR_IRQS:16 nr_irqs:16 0
+[    0.000000] vpic_of_init: Initializing SoFIA vpic
+[    0.000000] vpic_of_init: xgold-vpic register remapping: Reg: c0800000, entri                                                                                        es c0804000
+[    0.000000] irq-xgold: new irq domain: intel,sofia-main-hirq - 1 irqs
+[    0.000000] irq-xgold: new irq domain: intel,xgold_eint - 30 irqs
+[    0.000000] irq-xgold: new irq domain: intel,xgold_abb - 32 irqs
+[    0.000000] irq-xgold: new irq domain: intel,sofia-hirq - 512 irqs
+[    0.000000] irq-xgold: new irq domain: intel,xgold_pmu - 24 irqs
+[    0.000000] CPU 0 irqstacks, hard=8004a000 soft=8004c000
+[    0.000000] logger: created 256K log 'log_kern_bot'
+[    0.000000] console [logk0] enabled
+[    0.000000] bootconsole [earlyxgold0] disabled
+[    0.000000] logger: register logcat console
+[    0.000000] --> x86_xgold_time_init
+[    0.000000] Intel x86 xgold using soctimer only
+[    0.000000] xgold_of_timer_map:Initializing STM FAF to 0x319
+[    0.000000] xgold_of_timer_map:Clocksource is not persistent in suspend
+[    0.000000] xgold_of_timer_map:Clock event device rating set to 0x32
+[    0.000000] XGOLD STM:Clock frequency 26MHz
+[    0.000000] XGOLD STM:Clock event min precision 1000000ns
+[    0.000000] XGOLD STM:Clock event max precision 1000000000ns
+[    0.000000] xgold_of_timer_map: Masking cpu0 for STM usage
+[    0.000000] xgold_of_timer_map: Masking cpu1 for STM usage
+[    0.000000] XGOLD STM timer used to provide sched clock
+[    0.000000] XGOLD STM timer clkevent [1000000ns-1000000000ns]
+[    0.000000] xgold_stm_clkevent_setup: Setup clkevent for CPU0
+[    0.000000] xgold_stm_clkevent_setup: Installing vector 117 done
+[    0.000000] xgold_timer_cc_init:Clock event device rating set to 0x32
+[    0.000000] xgold_timer_cc_init:Input clock rate set to 0x18cba80
+[    0.000000] xgold_timer_cc_init:Clock event min set to 1000000
+[    0.000000] xgold_timer_cc_init:Clock event max set to 1000000000
+[    0.000000] xgold_timer_cc_init: Set cpu2 as valid for CC usage
+[    0.000000] xgold_timer_cc_init: Set cpu3 as valid for CC usage
+[    0.000000] CAPCOM: Registering cc event HW:
+[    0.000000]  26000000 Hz, mask c, rating 50
+[    0.000000] Initializing capcom clock events Clk event CapCom, mask 4,cc id 0                                                                                        , mult 353f7cf, shift 1f, max 1000000000, min 1000000
+[    0.000000] Initializing capcom clock events Clk event CapCom, mask 8,cc id 1                                                                                        , mult 353f7cf, shift 1f, max 1000000000, min 1000000
+[    0.000000] <-- x86_xgold_time_init
+[    0.000000] xgold_calibrate_tsc: Run it for 10 ms
+[    0.000000] xgold_calibrate_tsc: LAPIC Timer frequency is 225.0369 MHz.
+[    0.000000] tsc: Detected 8113.820 MHz processor
+[    0.020000] Calibrating delay loop... 892.92 BogoMIPS (lpj=4464640)
+[    0.050060] pid_max: default: 32768 minimum: 301
+[    0.050286] Security Framework initialized
+[    0.050318] SELinux:  Initializing.
+[    0.050373] SELinux:  Starting in permissive mode
+[    0.050452] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.050474] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.122531] Initializing cgroup subsys debug
+[    0.122572] Initializing cgroup subsys memory
+[    0.122612] Initializing cgroup subsys freezer
+[    0.123324] CPU: Physical Processor ID: 0
+[    0.123341] CPU: Processor Core ID: 2
+[    0.123523] Last level iTLB entries: 4KB 48, 2MB 0, 4MB 0
+[    0.123523] Last level dTLB entries: 4KB 128, 2MB 16, 4MB 16, 1GB 0
+[    0.123523] tlb_flushall_shift: 6
+[    0.127741] Freeing SMP alternatives memory: 24K (81467000 - 8146d000)
+[    0.127762] ftrace: allocating 27885 entries in 55 pages
+[    0.160706] smpboot: CPU0: Genuine Intel(R) CPU         @ 728 (fam: 06, model                                                                                        : 5d, stepping: 01)
+[    0.160799] Performance Events: generic architected perfmon, full-width count                                                                                        ers, Intel PMU driver.
+[    0.160928] ... version:                3
+[    0.160944] ... bit width:              40
+[    0.160959] ... generic registers:      2
+[    0.160972] ... value mask:             000000ffffffffff
+[    0.160984] ... max period:             000000ffffffffff
+[    0.160997] ... fixed-purpose events:   3
+[    0.161010] ... event mask:             0000000700000003
+[    0.213657] Initializing Xgold Reset controller driver.
+[    0.215522] xgold_reset_do_sanity: Invalid register access scheme (0)
+[    0.215558] xgold_reset_do_sanity: Invalid register access scheme (0)
+[    0.216251] xgold_reset_do_sanity: Using WO/WC/RO register access scheme
+[    0.216358] Registering Xgold Reset controller @c0806000
+[    0.216393] xgold_reset_do_sanity: Using WO/WC/RO register access scheme
+[    0.216465] Registering Xgold Reset controller @c0856010
+[    0.216898] xgold_reset_do_sanity: Using R/W register access scheme
+[    0.216975] Registering Xgold Reset controller @c0858100
+[    0.220479] xgold_stm_clkevent_setup: Setup clkevent for CPU0
+[    0.240375] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PM                                                                                        U counter.
+[    0.260721] CPU 1 irqstacks, hard=80306000 soft=80308000
+[    0.260751] x86: Booting SMP configuration:
+[    0.260769] .... node  #0, CPUs:      #1
+[    0.020000] Initializing CPU#1
+[    0.264276] xgold_stm_clkevent_setup: Setup clkevent for CPU1
+[    0.264276] xgold_stm_clkevent_setup: Installing vector 116 done
+[    0.280678] CPU 2 irqstacks, hard=80338000 soft=8033a000
+[    0.280702]  #2
+[    0.020000] Initializing CPU#2
+[    0.284054] TSC synchronization [CPU#0 -> CPU#2]:
+[    0.284080] Measured 1512 cycles TSC warp between CPUs, turning off TSC clock                                                                                        .
+[    0.284117] tsc: Marking TSC unstable due to check_tsc_sync_source failed
+[    0.284375] Registering Capcom as clock event for cpu 2
+[    0.284375] Clock event device 2 set to SHUTDOWN
+[    0.284375] Clock event device 2 set to PERIODIC
+[    0.300690] CPU 3 irqstacks, hard=80388000 soft=8038a000
+[    0.300713]  #3
+[    0.020000] Initializing CPU#3
+[    0.302294] Registering Capcom as clock event for cpu 3
+[    0.302294] Clock event device 3 set to SHUTDOWN
+[    0.302294] Clock event device 3 set to PERIODIC
+[    0.302294] x86: Booted up 1 node, 4 CPUs
+[    0.302294] smpboot: Total of 4 processors activated (3571.71 BogoMIPS)
+[    0.324317] pinctrl core: initialized pinctrl subsystem
+[    0.324961] regulator-dummy: no parameters
+[    0.329243] NET: Registered protocol family 16
+[    0.331481] cpuidle: using governor ladder
+[    0.331507] cpuidle: using governor menu
+[    0.332950] ------------[ cut here ]------------
+[    0.332993] WARNING: CPU: 0 PID: 1 at /fwork2/public1/evk_main/eng/linux-3.10                                                                                        /arch/x86/mm/ioremap.c:112 __ioremap_caller+0x303/0x330()
+[    0.333008] Modules linked in:
+[    0.333031] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 3.14.0 #3
+[    0.333047]  00000000 00000000 80281e08 80f297ee 81133950 80281e38 808403e4 8                                                                                        1134870
+[    0.333086]  00000000 00000001 81133950 00000070 80832cf3 80832cf3 0000c000 0                                                                                        0000600
+[    0.333120]  00000600 80281e48 80840422 00000009 00000000 80281ea4 80832cf3 0                                                                                        0000000
+[    0.333154] Call Trace:
+[    0.333187]  [<80f297ee>] dump_stack+0x4b/0x75
+[    0.333217]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[    0.333240]  [<80832cf3>] ? __ioremap_caller+0x303/0x330
+[    0.333261]  [<80832cf3>] ? __ioremap_caller+0x303/0x330
+[    0.333283]  [<80840422>] warn_slowpath_null+0x22/0x30
+[    0.333305]  [<80832cf3>] __ioremap_caller+0x303/0x330
+[    0.333330]  [<80ac7965>] ? kobject_add+0x35/0x80
+[    0.333353]  [<80832d58>] ioremap_cache+0x18/0x20
+[    0.333376]  [<813dedff>] ? boot_params_ksysfs_init+0x79/0x20d
+[    0.333397]  [<813dedff>] boot_params_ksysfs_init+0x79/0x20d
+[    0.333421]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[    0.333441]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[    0.333466]  [<80f2ffa6>] ? _raw_spin_unlock_irqrestore+0x26/0x60
+[    0.333492]  [<80d641a1>] ? of_find_property+0x41/0x50
+[    0.333516]  [<8080046c>] do_one_initcall+0xbc/0x190
+[    0.333536]  [<813ded86>] ? probe_roms+0x20b/0x20b
+[    0.333562]  [<8085ce0b>] ? parse_args+0x27b/0x480
+[    0.333583]  [<80f2ffa6>] ? _raw_spin_unlock_irqrestore+0x26/0x60
+[    0.333611]  [<813dab3d>] kernel_init_freeable+0xea/0x18c
+[    0.333632]  [<813da4d2>] ? do_early_param+0x74/0x74
+[    0.333655]  [<80f22470>] kernel_init+0x10/0xe0
+[    0.333678]  [<80f30df7>] ret_from_kernel_thread+0x1b/0x28
+[    0.333698]  [<80f22460>] ? rest_init+0x80/0x80
+[    0.333740] ---[ end trace a338f233f0215efe ]---
+[    0.334125] Initializing DMA ops for non coherent architecture
+[    0.334144] --> xgold_init_machine
+[    0.334799] register chip revision 0x10
+[    0.379825] rockchip_iommu e2d00800.vpu_mmu: (vpu) Enter
+[    0.380180] rockchip_iommu e2d00800.vpu_mmu: (vpu) Initialized
+[    0.380627] rockchip_iommu e2d00440.hevc_mmu: (hevc) Enter
+[    0.380845] rockchip_iommu e2d00440.hevc_mmu: (hevc) Initialized
+[    0.381225] rockchip_iommu e1000300.vop_mmu: (vop) Enter
+[    0.381416] rockchip_iommu e1000300.vop_mmu: (vop) Initialized
+[    9.708346] <-- xgold_init_machine
+[    9.711717] xgold_pm_of_init: 117 pm users added
+[    9.713627] xgold_pm_of_init: 34 pm class added
+[    9.719605] pinctrl-single e4600000.pinmux: 640 pins at pa c0864000 size 2560
+[    9.719877] pinctrl-single e6300000.pinmux: pinctrl: io:@vmm
+[    9.720675] pinctrl-single e6300000.pinmux: 384 pins at pa e6300000 size 1536
+[    9.721894] gpio: gpio: io: linux-@:c0868000
+[    9.721916] gpio: XGold gpio probed base:0 num:106 gpios from gpio
+[    9.722295] gpio: missing property:intel,gpio-to-irq-num
+[    9.722315] gpio: gpio: io: vmm-@:0xe6300000
+[    9.722331] gpio: XGold gpio probed base:107 num:45 gpios from gpio
+[    9.723258] VPOWER: Running in async mode
+[    9.723371] fmdev_init()
+[    9.723725] fmdev_init(): Success! retval: 0
+[    9.726687] pmic_reg_access: cannot find node 'vmm_pmic-ext'
+[    9.741168] bio: create slab <bio-0> at 0
+[    9.743380] xgold_cpuidle_init: Initializing xgold cpuidle driver
+[    9.743575] idle xgold: Name | latency | residency | power | flags | vmmid
+[    9.743597]  S0 [mclk gated in MC4]   22      50      3       5 1
+[    9.744685] Enter xgold_dma_probe
+[    9.745763] pl08xdmac pl08xdmac: initialized 8 virtual memcpy channels
+[    9.745811] pl08xdmac pl08xdmac: initialized 15 virtual slave channels
+[    9.749017] pl08xdmac pl08xdmac: DMA: PL080 rev0 at 0xe0100000 irq 107
+[    9.750634] sd_ldo: 3000 mV
+[    9.750861] Registering device PM controlled regulator
+[    9.751921] lmmc1: 1800 <--> 2900 mV
+[    9.752419] lemmc: 1800 <--> 2900 mV
+[    9.752858] lcd: 2900 mV
+[    9.753255] XGOLD Network On Chip (NoC) initialisation
+[    9.754373] xgold-noc ef000000.l1_noc: XGOLD NoC driver initialization ef0000                                                                                        00.l1_noc
+[    9.755026] xgold-noc ef000000.l1_noc: 3 probe(s), 4 filter(s), 2 counter(s),                                                                                         error policy: print
+[    9.755094] xgold-noc ef000000.l1_noc: intel,LCDC-qos-settings added to list(                                                                                        0)
+[    9.755147] xgold-noc ef000000.l1_noc: intel,GPU-qos-settings added to list(0                                                                                        )
+[    9.755208] xgold-noc ef000000.l1_noc: intel,CPU1-qos-settings added to list(                                                                                        1)
+[    9.756412] xgold-noc ef000000.l1_noc: Error interrupt -0 0x80030108 -1 0x000                                                                                        04d00 -3 0x00000008 -5 0x00000100 -7 0x0000001c
+[    9.760660] xgold-noc ef010000.l2_noc: XGOLD NoC driver initialization ef0100                                                                                        00.l2_noc
+[    9.761411] xgold-noc ef010000.l2_noc: 1 probe(s), 4 filter(s), 2 counter(s),                                                                                         error policy: print
+[    9.761437] xgold-noc ef010000.l2_noc: no QoS config list
+[    9.761938] xgold-noc ef010000.l2_noc: Error interrupt -0 0x80030000 -1 0x000                                                                                        04400 -3 0x00800064 -5 0x00000100 -7 0x00000004
+[    9.764677] SCSI subsystem initialized
+[    9.765817] usbcore: registered new interface driver usbfs
+[    9.765914] usbcore: registered new interface driver hub
+[    9.766443] usbcore: registered new device driver usb
+[    9.768191] xgold_gpio_to_irq: Can't bind gpio to interrupt
+[    9.769110] intel-usb2phy e4800900.phy: power budget set to 500 mA
+[    9.770802] xgold_gpio_to_irq: Can't bind gpio to interrupt
+[    9.773945] of_dma_request_slave_channel: dma-names property of node '/xgold/                                                                                        noc/l2_noc/ahb_per@1/i2c_1' missing or empty
+[    9.773983] I2C: Enterring xgold_i2c_core_probe
+[    9.780772] of_dma_request_slave_channel: dma-names property of node '/xgold/                                                                                        noc/l2_noc/ahb_per@1/i2c_3' missing or empty
+[    9.780804] I2C: Enterring xgold_i2c_core_probe
+[    9.788848] of_dma_request_slave_channel: dma-names property of node '/xgold/                                                                                        noc/l2_noc/ahb_per@1/i2c_4' missing or empty
+[    9.788883] I2C: Enterring xgold_i2c_core_probe
+[    9.794177] Linux video capture interface: v2.00
+[    9.796612] rk_ion heap cma-heap base:0x00000000 length:0x0c000000 type 4
+[    9.799187] Advanced Linux Sound Architecture Driver Initialized.
+[    9.801920] Switched to clocksource xgold_stm_clocksource
+[    9.803946] Clock event device 3 set to ONESHOT
+[    9.805959] Clock event device 2 set to ONESHOT
+[    9.891109] loader-logo-on:1
+[    9.891147] create rockchip ion client
+[    9.891200] rockchip-fb rockchip-fb: rockchip framebuffer driver probe
+[    9.892982] rockchip-screen screen.198: rockchip screen probe success
+[    9.894056] xgold-mipi_dsi xgold-mipi_dsi: XGold MIPI DSI driver probe succes                                                                                        s
+[    9.894836] dsi_of_parse_display_timing: Warning! HFP = 100, MAX HFP is 85
+[    9.895494] Display interface mipi-dsi using dts 1
+[    9.895602] dsi_of_parse_display: In node display-panel, unexpected child mip                                                                                        i-dsi !
+[    9.895618] dsi_of_parse_display: In node display-panel, unexpected child dis                                                                                        play-timings !
+[    9.897520] dsi parameters in dts
+[    9.899285] graphics fb0: rockchip framebuffer registered:fb0
+[    9.900549] graphics fb1: rockchip framebuffer registered:fb1
+[    9.900837] graphics fb2: rockchip framebuffer registered:fb2
+[    9.901749] rockchip-vop vop0: vop0: dclk:0>>fps:58
+[    9.901774] rockchip-vop vop0: wakeup from standby!
+[    9.923235] graphics fb0: fb0:phy:10000000>>vir:c1681000>>len:0x800000
+[    9.923274] graphics fb0: copy fb data 600 x 1024  from  addr:0x3f119200 to a                                                                                        ddr:0x10000000
+[    9.979482] rockchip-vop vop0: vop0 probe ok, iommu enabled
+[    9.983539] NET: Registered protocol family 2
+[    9.984361] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+[    9.984462] TCP bind hash table entries: 8192 (order: 5, 163840 bytes)
+[    9.984644] TCP: Hash tables configured (established 8192 bind 8192)
+[    9.984753] TCP: reno registered
+[    9.984779] UDP hash table entries: 512 (order: 2, 24576 bytes)
+[    9.984832] UDP-Lite hash table entries: 512 (order: 2, 24576 bytes)
+[    9.985226] NET: Registered protocol family 1
+[    9.985691] Trying to unpack rootfs image as initramfs...
+[   10.082057] Freeing initrd memory: 1248K (80400000 - 80538000)
+[   10.100256] console [pstore-1] enabled
+[   10.100347] pstore: Registered ramoops as persistent store backend
+[   10.100371] ramoops: attached 0x219000@0x3355d000, ecc: 0/0
+[   10.102370] futex hash table entries: 1024 (order: 4, 65536 bytes)
+[   10.102457] Initialise system trusted keyring
+[   10.102675] audit: initializing netlink subsys (disabled)
+[   10.102825] audit: type=2000 audit(946684802.800:1): initialized
+[   10.117435] exFAT: Version 1.2.9
+[   10.117670] fuse init (API version 7.22)
+[   10.118637] msgmni has been set to 1851
+[   10.119129] SELinux:  Registering netfilter hooks
+[   10.132841] alg: No test for stdrng (krng)
+[   10.132992] Key type asymmetric registered
+[   10.133036] Asymmetric key parser 'x509' registered
+[   10.133165] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 2                                                                                        51)
+[   10.133195] io scheduler noop registered
+[   10.133473] io scheduler cfq registered (default)
+[   10.145286] rga: create rockchip ion client for RGA
+[   10.145562] rga: Driver loaded successfully
+[   10.146088] mvpipe enumerate instance name at
+[   10.146976] mvpipe enumerate instance name at2
+[   10.147865] mvpipe enumerate instance name atc
+[   10.148623] mvpipe enumerate instance name at2c
+[   10.149335] mvpipe enumerate instance name at-dbg
+[   10.150087] mvpipe enumerate instance name bplog
+[   10.150809] mvpipe enumerate instance name fttool
+[   10.151515] mvpipe enumerate instance name streamline
+[   10.152242] mvpipe enumerate instance name backup
+[   10.152969] mvpipe enumerate instance name echo
+[   10.153691] mvpipe enumerate instance name secmd
+[   10.154401] mvpipe enumerate instance name sedat0
+[   10.155142] mvpipe enumerate instance name oec_dat
+[   10.155919] mvpipe enumerate instance name vpu
+[   10.156704] mvpipe enumerate instance name vpu_ion
+[   10.157510] mvpipe enumerate instance name GTI
+[   10.158457] mvpipe enumerate instance name veth_ctrl
+[   10.159207] mvpipe enumerate instance name lpmp3
+[   10.159995] mvpipe enumerate instance name lpmp3_dbg
+[   10.161772] VOEMCRYPTO-FE: Initializing.
+[   10.162719] VOEMCRYPTO-FE: Initialized.
+[   10.162746] vdump: init
+[   10.162944] vdump: Kernel vdump Thread create.
+[   10.163393] vdump: Kernel vdump Thread: vdump Thread
+[   10.163454] vdump: Kernel vdump Thread enter.
+[   10.163489] vdump: vdump_detect[/system/etc/vdump.conf]
+[   10.163566] vdump: Gadget fp=fffffffe open failed!
+[   10.163764] mveth: virtual Ethernet device driver 1.0.
+[   10.164582] mveth enumerate instance name veth0
+[   10.166104] mveth enumerate instance name veth1
+[   10.166795] virtual Ethernet device driver initialized
+[   10.169221] TEE_RPC REGISTERED major : 229
+[   10.170254] IDI AG6x0 client init
+[   10.170357] Registering IDI driver
+[   10.174913] idi idi-0: : Rev: 4   Mod ID: 130   TS Rev: 777
+[   10.174959] idi idi-0: : Software check: 16 channels
+[   10.174984] idi idi-0: : SRB Multiple Source: 0x0000000c
+[   10.175005] idi idi-0: : SRB Error Config: 0x0000000c
+[   10.178756] AG6x0 idi_client-0: AGold using secure access
+[   10.182449] : Miss PM info
+[   10.183359] idi-error idierror-0: imc_idi_error_probe: probe return 0
+[   10.190192] XGOLD USIF serial driver
+[   10.191279] serial-usif-xgold e1100000.usif1: default 50ms fci poll
+[   10.191321] serial-usif-xgold e1100000.usif1: runtime_pm_enabled is disable
+[   10.191347] serial-usif-xgold e1100000.usif1: runtime_pm_debug is disable
+[   10.191375] serial-usif-xgold e1100000.usif1: rpm_suspend_delay set to 5000
+[   10.191401] serial-usif-xgold e1100000.usif1: auto_suspend_enable is disable
+[   10.192448] e1100000.usif1: ttyS0 at MMIO 0xe1100000 (irq = 35, base_baud = 6                                                                                        500000) is a XGOLD_USIF
+[   12.143662] vdump: Gadget fp=fffffffe open failed!
+[   12.349680] console [ttyS0] enabled
+[   12.354184] serial-usif-xgold e1200000.usif2: default 50ms fci poll
+[   12.360273] serial-usif-xgold e1200000.usif2: runtime_pm_enabled is disable
+[   12.367324] serial-usif-xgold e1200000.usif2: runtime_pm_debug is disable
+[   12.373979] serial-usif-xgold e1200000.usif2: rpm_suspend_delay set to 5000
+[   12.380861] serial-usif-xgold e1200000.usif2: auto_suspend_enable is disable
+[   12.388748] e1200000.usif2: ttyS1 at MMIO 0xe1200000 (irq = 36, base_baud = 6                                                                                        500000) is a XGOLD_USIF
+[   12.406583] tadi_driver_probe: trace port:[mem 0x80000000-0x80ffffff] - iorem                                                                                        ap:c2b80000
+[   12.414604] tadi_driver_probe: Register tdcons console
+[   12.420020] Mali Platform: mali_platform_init()
+[   12.425462] Mali Platform: mali_platform_device_init()
+[   12.430654] Mali Platform: ultra_high_perf is enabled
+[   12.436524] Mali Platform: fb   region @0x08000000 length = 0x08000000 (128MB                                                                                        )
+[   12.443681] Mali Platform: rsvd region @0x00000000 length = 0x00000000 (0MB)
+[   12.450648] Mali Platform: os   region length = 0x20000000 (512MB)
+[   12.456630] Mali Platform: dvfs is enabled
+[   12.460797] Mali Platform: dvfs_clock_config from DT:
+[   12.465666] Mali Platform: {208, 1000}
+[   12.469358] Mali Platform: {312, 2000}
+[   12.473134] Mali Platform: {416, 3000}
+[   12.476760] Mali Platform: {600, 4000}
+[   12.481138] xgold-noc ef000000.l1_noc: Error interrupt -0 0x80030008 -1 0x000                                                                                        04d20 -3 0x00000088 -5 0x00000100 -7 0x0000001c
+[   12.498326] brd: module loaded
+[   12.506489] loop: module loaded
+[   12.510392] zram: Created 1 device(s) ...
+[   12.516009] hx280enc: registered platform driver
+[   12.521350] hx170dec: registered platform driver[   12.525778] xgold Vibrator                                                                                         init
+[   12.529858] vibra-xgold e6501400.vibrator: AGold vibrator using secure access
+[   12.537273] vibra-xgold e6501400.vibrator: Vibrator driver probed
+[   12.543427] pmic Vibrator init
+[   12.547744] vcodec e2d00000.vpu_combo: probe device.
+[   12.552827] ->state: high_perf
+[   12.555861] e2d00000.vpu_combo: power on.
+[   12.564074] ->state: disable
+[   12.566932] e2d00000.vpu_combo: power off.
+[   12.570952] vcodec e2d00000.vpu_combo: init success.
+[   12.577133] tun: Universal TUN/TAP device driver, 1.6
+[   12.582197] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[   12.588420] PPP generic driver version 2.4.2
+[   12.592683] PPP BSD Compression module registered
+[   12.597193] PPP Deflate Compression module registered
+[   12.602273] PPP MPPE Compression module registered
+[   12.606918] NET: Registered protocol family 24
+[   12.911016] e2100000.usb supply vusb_d not found, using dummy regulator
+[   12.917679] e2100000.usb supply vusb_a not found, using dummy regulator
+[   12.963669] dwc2 e2100000.usb: EPs: 16, dedicated fifos, 4672 entries in SPRA                                                                                        M
+[   13.525920] dwc2 e2100000.usb: DWC OTG Controller
+[   13.530599] dwc2 e2100000.usb: new USB bus registered, assigned bus number 1
+[   13.537591] dwc2 e2100000.usb: irq 55, io mem 0x00000000
+[   14.097888] hub 1-0:1.0: USB hub found
+[   14.101653] hub 1-0:1.0: 1 port detected
+[   14.107818] usbcore: registered new interface driver usb-storage
+[   14.114009] usbcore: registered new interface driver usb_ehset_test
+[   14.120600] mousedev: PS/2 mouse device common for all mice
+[   14.127037] xgold_keypad_init
+[   14.129520] vdump: Gadget fp=fffffffe open failed!
+[   14.135584] kpd-xgold e4200000.keypad: get keypad,kp_in0 error
+[   14.141347] kpd-xgold e4200000.keypad: get keypad,kp_in2 error
+[   14.146998] kpd-xgold e4200000.keypad: get keypad,kp_in5 error
+[   14.152840] kpd-xgold e4200000.keypad: get keypad,kp_in6 error
+[   14.158523] kpd-xgold e4200000.keypad: get keypad,kp_in7 error
+[   14.165206] input: kpd-xgold as /devices/soc0/e0000000.noc/ef010000.l2_noc/e4                                                                                        000000.ahb_per/e4200000.keypad/input/input0
+[   14.176267] kpd-xgold e4200000.keypad: keypad probed
+[   14.184102] input: xgold-on-button as /devices/soc0/e0000000.noc/ef010000.l2_                                                                                        noc/e6100000.idi_per/e6600000.agold/on_button.172/input/input1
+[   14.197097] [FTS][Touch] ftxxxx_ts_init !
+[   14.201578] [FTS][Touch] FTXXXX prob process Start !
+[   14.206464] ftxxxx 4-0038: home key x:360
+[   14.210420] ftxxxx 4-0038: back key x:580
+[   14.214276] ftxxxx 4-0038: menu key x:120
+[   14.219687] input: focal-touchscreen as /devices/virtual/input/input2
+[   14.426233] [FTS]focaltech_get_upgrade_array chip_id = 55
+[   14.431437] [FTS]focaltech_get_upgrade_array match chip_id = 55
+[   14.437364] [FTS][Touch] ftxxxx_create_sysfs Start !
+[   14.455742] [FTS]Change to STDI2cValue,REG1 = 0x0,REG2 = 0x0,REG3 = 0x0, iRet                                                                                        =1
+[   14.462834] HidI2c_To_StdI2c error.
+[   14.466410] [FTS][Touch] ftxxxx_create_sysfs End !
+[   14.471689] [FTS] Firmware version = 0x8
+[   14.475844] [FTS] report rate is 60Hz.
+[   14.479780] [FTS] touch threshold is 100.
+[   14.483963] [FTS] VENDOR ID = 0x79
+[   14.487279] [FTS][Touch] X-RES = 600, Y-RES = 1024, RST gpio = 71, gpio irq =                                                                                         311, client irq = 311
+[   14.496275] i2c-core: driver [ftxxxx] using legacy suspend method
+[   14.502154] i2c-core: driver [ftxxxx] using legacy resume method
+[   14.508236] [FTS][Touch] Successfully added driver ftxxxx
+[   14.513440] ltr559: ltr559 sysfs driver init
+[   14.518717] kionix_accel 4-000e: probe start ------->
+[   14.524031] kionix_accel 4-000e: this accelerometer is a KXCJK-1013.
+[   14.531713] input: kionix_accel as /devices/soc0/e0000000.noc/ef010000.l2_noc                                                                                        /e1000000.ahb_per/e1900000.i2c_4/i2c-4/4-000e/input/input3
+[   14.544035] kionix_accel 4-000e: running in software polling mode
+[   14.550052] kionix_accel 4-000e: <-------------- probe done
+[   14.556643] xgold_rtc rtc.165: rtc access are synchronous
+[   14.562019] xgold_rtc rtc.165: map rtc alarm irq index 262
+[   14.568100] xgold_rtc rtc.165: rtc core: registered rtc.165 as rtc0
+[   14.574288] rtc: RTC virtualized driver probed
+[   14.578975] i2c /dev entries driver
+[   14.583144] gc2155-v4l2-i2c-sub: i2c name: gc2155-v4l2-i2c-sub
+[   14.588898] gc2155.pltfrm_camera_module_get_data WARN: cannot not get flash-d                                                                                        river property of node camera-module
+[   14.712576] gc2155 1-003c: [gcdriver]: i2c read failed
+[   14.717541] gc2155.gc_s_power(200) ERR: Failed to power up gc2155-v4l2-i2c-su                                                                                        b: -19.
+[   14.811484] wv511 1-000c: probing...
+[   14.814899] wv511 1-000c: probing successful
+[   14.819533] OV8858 1-0010: probing...
+[   14.823133] OV8858.pltfrm_camera_module_get_data WARN: cannot not get flash-d                                                                                        river property of node camera-module
+[   14.833346] OV8858.pltfrm_camera_module_get_data: camera module has auto focu                                                                                        s controller wv511
+[   14.879491] OV8858.ov_camera_module_s_power(464) ERR: camera init common fail                                                                                        ed, powering off sensor
+[   14.888774] OV8858.ov_camera_module_s_power(555) ERR: failed with error -121
+[   14.895784] OV8858 1-0010: check camera id in probing...
+[   14.901172] OV8858.pltfrm_camera_module_read_reg(613) ERR: i2c read from offs                                                                                        et 0x0000300b failed with error -121
+[   14.911480] OV8858.pltfrm_camera_module_read_reg(613) ERR: i2c read from offs                                                                                        et 0x0000300c failed with error -121
+[   14.921595] OV8858.OV8858_check_camera_id(1926) ERR: register read failed, ca                                                                                        mera module powered off?
+[   14.930766] OV8858.OV8858_check_camera_id(1979) ERR: failed with error (-121)
+[   14.937695] OV8858 1-0010: get otp data for r2a...
+[   14.998926] OV8858.pltfrm_camera_module_write_reg(658) ERR: i2c write to offs                                                                                        et 0x00000100 failed with error -121
+[   15.009326] OV8858.pltfrm_camera_module_read_reg(613) ERR: i2c read from offs                                                                                        et 0x00005002 failed with error -121
+[   15.019459] OV8858.ov8858_otp_read(1837) ERR: otp read failed at phase1
+[   15.025964] OV8858 1-0010: probing successful
+[   15.030742] FMR: Intel FM Radio driver version : 1.00
+[   15.035638] idi_bus_match:fmr-0-ag6x0_fmr: Using peripheral type for registra                                                                                        tion process is deprecated
+[   15.045066] idi_bus_match:fmr-0-ag6x0_fmr: Please idi device id and driver id                                                                                         table
+[   15.052711] FMR: Device probe called
+[   15.056107] FMR: V4l2 device registration
+[   15.060412] FMR: Registration with Frequency manager successful
+[   15.066250] FMR: FM Radio device PM registration successful
+[   15.071794] FMR: driver initialised successfully
+[   15.078599] spcu_thermal e4700000.spcu_thermal1: Thermal zone device register                                                                                        ed, type=coretemp1
+[   15.088424] spcu_thermal e4700000.spcu_thermal3: Thermal zone device register                                                                                        ed, type=coretemp3
+[   15.097937] spcu_thermal e4700000.spcu_thermal4: Thermal zone device register                                                                                        ed, type=coretemp4
+[   15.107341] spcu_thermal e4700000.spcu_thermal5: Thermal zone device register                                                                                        ed, type=coretemp5
+[   15.116750] device-mapper: uevent: version 1.0.3
+[   15.121664] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-d                                                                                        evel@redhat.com
+[   15.132843] xgold_cpufreq_probe:platform_get_irq_byname(CPU_CLK_CHANGE) (virq                                                                                        :308)
+[   15.141416] sdhci: Secure Digital Host Controller Interface driver
+[   15.147524] sdhci: Copyright(c) Pierre Ossman
+[   15.151696] sdhci-pltfm: SDHCI platform and OF driver helper
+[   15.160508] xgold-sdhci e2800000.emmc: sdhci: io: linux-@:c3f00000
+[   15.167331] sdhci: e2800000.emmc, rpm = 1
+[   15.171999] mmc0: no vqmmc regulator found
+[   15.175901] mmc0: no vmmc regulator found
+[   15.226233] mmc0: SDHCI controller on e2800000.emmc [e2800000.emmc] using ADM                                                                                        A
+[   15.235189] xgold-sdhci e1400000.sd: sdhci: io: linux-@:c4200000
+[   15.244404] xgold-sdhci e1400000.sd: Got CD GPIO #43.
+[   15.249637] sdhci: e1400000.sd, rpm = 1
+[   15.315081] mmc1: SDHCI controller on e1400000.sd [e1400000.sd] using ADMA
+[   15.323514] leds-agold620 e6501800.agold620-backlight: AGOLD620 backlight dri                                                                                        ver probed
+[   15.334381] i2c-core: driver [lp8557] using legacy resume method
+[   15.345034] usbcore: registered new interface driver usbhid
+[   15.350078] mmc0: BKOPS_EN bit is not set
+[   15.354700] usbhid: USB HID core driver
+[   15.359650] ashmem: initialized
+[   15.363075] logger: created 512K log 'log_main'
+[   15.368293] logger: created 256K log 'log_events'
+[   15.373135] logger: created 256K log 'log_radio'
+[   15.378066] logger: created 256K log 'log_system'
+[   15.383057] mmc0: new high speed DDR MMC card at address 0001
+[   15.385862] ag620_meas meas-0: Initializing MEAS AG620 HAL
+[   15.386058] ag620_meas: meas_ag620_probe: agold_chip_rev=0x0021
+[   15.386158] ag620_meas meas-0: meas_ag620_probe: getting handlers for dev pm                                                                                         states...
+[   15.386598] intel_adc: Registering AGOLD 620 MEAS HAL, 10 channels available.
+[   15.386602] intel_adc:       chan=0, id=21
+[   15.386606] intel_adc:       chan=1, id=8
+[   15.386609] intel_adc:       chan=2, id=17
+[   15.386611] intel_adc:       chan=3, id=22
+[   15.386614] intel_adc:       chan=4, id=23
+[   15.386617] intel_adc:       chan=5, id=24
+[   15.386620] intel_adc:       chan=6, id=0
+[   15.386623] intel_adc:       chan=7, id=1
+[   15.386625] intel_adc:       chan=8, id=2
+[   15.386628] intel_adc:       chan=9, id=12
+[   15.386632] intel_adc: All HALs were registered, probing the abstraction laye                                                                                        r...
+[   15.386641] ag620_meas meas-0: Probing the ADC
+[   15.388392] intel_adc_sensors: platform_name = ag620
+[   15.390525] oct: oct resource: [mem 0xe4d00000-0xe4dfffff] - ioremap: c458000                                                                                        0
+[   15.390525]
+[   15.391819] oct: Gadget /data/system/oct_offlog.conf open failed!
+[   15.393384] usbcore: registered new interface driver snd-usb-audio
+[   15.396984] dsp_audio_drv_probe: ioremap for [mem 0xe3600000-0xe3603fff] retu                                                                                        rned c0e78000
+[   15.397709] dsp_audio_drv_probe: ioremap for [mem 0xe3604000-0xe3803fff] retu                                                                                        rned c4700000
+[   15.398108] snd: dsp: read dsp-supply property failed
+[   15.398274] dsp_clock_init set state return 0
+[   15.400453] DSP initialization done 0
+[   15.401829] XGOLD_MACHINE sound.200: ASoC: CPU DAI (null) not registered
+[   15.401886] snd: mac: xgold_mc_probe: unable to register sound card err -517
+[   15.401918] platform sound.200: Driver XGOLD_MACHINE requests probe deferral
+[   15.403459] snd: voice: xgold_voice_probe :
+[   15.405884] xgold_bt_sco btauif-0: No 48k clock available
+[   15.406053] BTAUIF device PM registration success
+[   15.406224] oprofile: using NMI interrupt.
+[   15.406380] u32 classifier
+[   15.406383]     Actions configured
+[   15.406390] Netfilter messages via NETLINK v0.30.
+[   15.406483] nf_conntrack version 0.5.0 (14813 buckets, 59252 max)
+[   15.407192] ctnetlink v0.93: registering with nfnetlink.
+[   15.407755] xt_time: kernel timezone is -0000
+[   15.407773] ip_set: protocol 6
+[   15.408164] ip_tables: (C) 2000-2006 Netfilter Core Team
+[   15.408377] arp_tables: (C) 2002 David S. Miller
+[   15.408439] TCP: cubic registered
+[   15.408445] Initializing XFRM netlink socket
+[   15.409331] NET: Registered protocol family 10
+[   15.411222] mip6: Mobile IPv6
+[   15.411268] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[   15.411511] sit: IPv6 over IPv4 tunneling driver
+[   15.412291] NET: Registered protocol family 17
+[   15.412331] NET: Registered protocol family 15
+[   15.412427] l2tp_core: L2TP core driver, V2.0
+[   15.412442] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[   15.434265] thermal thermal_zone5: failed to read out thermal zone 5
+[   15.644593] mmc0: calculated max. discard sectors 3072 for timeout 2581 ms
+[   15.651838] mmcblk0: mmc0:0001 H8G1e 7.28 GiB
+[   15.656377] mmc0: calculated max. discard sectors 3072 for timeout 2581 ms
+[   15.663510] mmcblk0boot0: mmc0:0001 H8G1e partition 1 4.00 MiB
+[   15.669404] mmc0: calculated max. discard sectors 3072 for timeout 2581 ms
+[   15.676592] mmcblk0boot1: mmc0:0001 H8G1e partition 2 4.00 MiB
+[   15.682633] mmc0: calculated max. discard sectors 3072 for timeout 2581 ms
+[   15.689657] mmcblk0rpmb: mmc0:0001 H8G1e partition 3 4.00 MiB
+[   15.709947]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16                                                                                         p17
+[   15.722496] rpmb_rpc: rpmb partition created
+[   15.726614] [sec_rpc] rpc_call: Found entry ID: 0
+[   15.731575] [sec_rpc] rpc_call: Shared memory block size: 4046
+[   15.737850]  mmcblk0boot1: unknown partition table
+[   15.746080]  mmcblk0boot0: unknown partition table
+[   15.929863] pmic_swfg_hal: pmic_swfg_hal_init: was executed
+[   15.942549] Using IPI No-Shortcut mode
+[   15.947789] Loading compiled-in X.509 certificates
+[   15.952581] registered taskstats version 1
+[   15.956893] sd_ldo: disabling
+[   15.959936] regulator-dummy: disabling
+[   15.968107] snd-soc-dummy snd-soc-dummy: ASoC: Failed to create platform debu                                                                                        gfs directory
+[   15.976330] control 2:0:0:DSP Audio send cmd:0 is already present
+[   15.982305] Speech Probe speech_probe.170: ASoC: Failed to add DSP Audio send                                                                                         cmd: -16
+[   15.992459] XGOLD_MACHINE sound.200: snd-soc-dummy-dai <-> pcm_music.168 mapp                                                                                        ing ok
+[   16.000380] XGOLD_MACHINE sound.200: ag620_afe <-> pcm_voice.169 mapping ok
+[   16.009325] XGOLD_MACHINE sound.200: snd-soc-dummy-dai <-> pcm_music.168 mapp                                                                                        ing ok
+[   16.018962] XGOLD_MACHINE sound.200: snd-soc-dummy-dai <-> pcm_music.168 mapp                                                                                        ing ok
+[   16.026863] XGOLD_MACHINE sound.200: snd-soc-dummy-dai <-> XGOLD_SPEECH_PROBE                                                                                        _A mapping ok
+[   16.035135] XGOLD_MACHINE sound.200: snd-soc-dummy-dai <-> XGOLD_SPEECH_PROBE                                                                                        _A mapping ok
+[   16.043504] XGOLD_MACHINE sound.200: snd-soc-dummy-dai <-> XGOLD_SPEECH_PROBE                                                                                        _A mapping ok
+[   16.053712] XGOLD_MACHINE sound.200: snd-soc-dummy-dai <-> pcm_music.168 mapp                                                                                        ing ok
+[   16.065033] input: xgold_afe-audio Headset as /devices/sound.200/sound/card0/                                                                                        input4
+[   16.075131] snd: mac: xgold_mc_probe: ext_amp_gpio node not found
+[   16.082166] file system registered
+[   16.088011] Number of LUNs=8
+[   16.090796] Mass Storage Function, version: 2009/09/11
+[   16.096010] LUN: removable file: (no medium)
+[   16.100551] android_usb gadget: android_usb ready
+[   16.107546] dwc2 e2100000.usb: bound driver android_usb
+[   16.113581] xgold_rtc rtc.165: setting system clock to 2000-01-01 00:00:10 UT                                                                                        C (946684810)
+[   16.115426] vdump: Gadget fp=fffffffe open failed!
+[   16.126665] idi_bus_match:i2c_5-0-xgold-i2c-idi: Using peripheral type for re                                                                                        gistration process is deprecated
+[   16.136494] idi_bus_match:i2c_5-0-xgold-i2c-idi: Please idi device id and dri                                                                                        ver id table
+[   16.145533] I2C: Enterring xgold_i2c_core_probe
+[   16.152471] CIF ISP2.0 xgold_v4l2_drv_probe: probing...
+[   16.158383] CIF ISP2.0 cif_isp20_img_srcs_init: device OV8858 attached to CIF                                                                                         CSI-0
+[   16.166042] CIF ISP2.0 cif_isp20_img_srcs_init: device gc2155 attached to CIF                                                                                         CSI-1
+[   16.173988] CIF ISP2.0 cif_isp20_v4l2_register_video_device: video device vid                                                                                        eo0.1 (CIF ISP20 SP) successfully registered
+[   16.185902] CIF ISP2.0 cif_isp20_v4l2_register_video_device: video device vid                                                                                        eo2.3 (CIF ISP20 MP) successfully registered
+[   16.197061] CIF ISP2.0 cif_isp20_v4l2_register_video_device: video device vid                                                                                        eo3.4 (CIF ISP20 DMA) successfully registered
+[   16.208746] ag620_swfgh: sw_fuel_gauge_hal_probe: Getting PM state handlers:                                                                                         OK
+[   16.216855] idi_bus_match:brown_out-0-ag6x0_brown_out: Using peripheral type                                                                                         for registration process is deprecated
+[   16.227384] idi_bus_match:brown_out-0-ag6x0_brown_out: Please idi device id a                                                                                        nd driver id table
+[   16.236257] ag6x0_brown_out: brown_out_drv_probe: Getting PM state handlers:                                                                                         OK
+[   16.243598] ag6x0_brown_out: bat_supervision: 0x1022e523
+[   16.249644] ag6x0_bat_hal: bat_drv_hal_probe: Getting PM state handlers: OK
+[   16.260367] fan54x_charger: fan54x_idi_probe
+[   16.266050] fan54x_charger: fan54x_i2c_probe
+[   16.272368] fan54x_charger: Getting PM state handlers: OK
+[   16.281111] fan54x_charger: boot mode MOS
+[   16.285848] ag6x0_bat_hal: bat_drv_hal_check_battery_status_update: old_prese                                                                                        nce_state:0, new_presence_state: 0
+[   16.286055] fan54x_charger: charging hrtimer working
+[   16.286696] fan54x_charger: trigger wtd charging work
+[   16.288880] ag620_meas: AGOLD TEMP_ALERT_REG 0x00000040 at boot
+[   16.288894] ag620_meas: AGOLD thermal protection disabled at 313500 mK,
+[   16.288895] ag620_meas: TEMP_ALERT_REG 0x00000050
+[   16.323099] ag6x0_bat_hal: no battery, PSU is worked
+[   16.329963] ag620_thermal: PMICTEMP_SENSOR
+[   16.337358] ALSA device list:
+[   16.340323]   #0: xgold_afe-audio
+,GaP??d?[   16.350042] Freeing unused kernel memory: 564K (813da000 - 81467000)
+[   16.357641] Write protecting the kernel text: 7372k
+[   16.362809] Write protecting the kernel read-only data: 3196k
+[   16.368352] NX-protecting the kernel data: 6964k
+[   16.386598] SELinux: 2048 avtab hash slots, 5019 rules.
+[   16.394316] SELinux: 2048 avtab hash slots, 5019 rules.
+[   16.399418] SELinux:  1 users, 2 roles, 415 types, 0 bools, 1 sens, 1024 cats
+[   16.406419] SELinux:  86 classes, 5019 rules
+[   16.412772] SELinux:  Completing initialization.
+[   16.417232] SELinux:  Setting up existing superblocks.
+[   16.422497] SELinux: initialized (dev rootfs, type rootfs), uses genfs_contex                                                                                        ts
+[   16.429735] SELinux: initialized (dev bdev, type bdev), not configured for la                                                                                        beling
+[   16.437307] SELinux: initialized (dev proc, type proc), uses genfs_contexts
+[   16.445284] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SID                                                                                        s
+[   16.452421] SELinux: initialized (dev debugfs, type debugfs), uses genfs_cont                                                                                        exts
+[   16.477464] SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+[   16.484487] SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+[   16.491326] SELinux: initialized (dev anon_inodefs, type anon_inodefs), not c                                                                                        onfigured for labeling
+[   16.500144] SELinux: initialized (dev aio, type aio), not configured for labe                                                                                        ling
+[   16.507654] SELinux: initialized (dev devpts, type devpts), uses transition S                                                                                        IDs
+[   16.515096] SELinux: initialized (dev mqueue, type mqueue), uses transition S                                                                                        IDs
+[   16.522471] SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_                                                                                        contexts
+[   16.530313] SELinux: initialized (dev configfs, type configfs), not configure                                                                                        d for labeling
+[   16.538477] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SID                                                                                        s
+[   16.545734] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+[   16.702246] audit: type=1403 audit(946684811.090:2): policy loaded auid=42949                                                                                        67295 ses=4294967295
+[   16.867477] init: /init.sofia3g.rc: 387: ignored duplicate definition of serv                                                                                        ice 'media'
+[   16.878962] SELinux: initialized (dev binfmt_misc, type binfmt_misc), not con                                                                                        figured for labeling
+[   16.882103] init: invalid gid 'trace'
+[   16.893028] SELinux: mount invalid.  Same superblock, different security sett                                                                                        ings for (dev binfmt_misc, type binfmt_misc)
+[   17.370201] oct: Gadget /data/system/oct_offlog.conf open failed!
+[   17.390071] init: /dev/hw_random not found
+[   17.401214] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contex                                                                                        ts
+[   17.409303] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SID                                                                                        s
+[   17.417481] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contex                                                                                        ts
+[   17.428771] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SID                                                                                        s
+[   17.436787] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SID                                                                                        s
+[   17.447857] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contex                                                                                        ts
+[   17.457821] SELinux: initialized (dev pstore, type pstore), uses genfs_contex                                                                                        ts
+[   17.468431] init: /dev/hw_random not found
+[   17.494784] EXT4-fs (mmcblk0p14): mounted filesystem with ordered data mode.                                                                                         Opts: (null)
+[   17.503011] SELinux: initialized (dev mmcblk0p14, type ext4), uses xattr
+[   17.510064] fs_mgr: __mount(source=/dev/block/platform/soc0/e0000000.noc/by-n                                                                                        ame/ImcPartID068,target=/system,type=ext4)=0
+[   17.745662] rk_ion /dev/mvpipe-vpu_ion link 0x80392e00 established
+[   17.854564] EXT4-fs (mmcblk0p16): recovery complete
+[   17.860711] EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode.                                                                                         Opts: journal_async_commit,noauto_da_alloc,discard,data=ordered
+[   17.873461] SELinux: initialized (dev mmcblk0p16, type ext4), uses xattr
+[   17.880277] fs_mgr: __mount(source=/dev/block/platform/soc0/e0000000.noc/by-n                                                                                        ame/ImcPartID069,target=/data,type=ext4)=0
+[   17.907831] EXT4-fs (mmcblk0p13): recovery complete
+[   17.913665] EXT4-fs (mmcblk0p13): mounted filesystem with ordered data mode.                                                                                         Opts: (null)
+[   17.921779] SELinux: initialized (dev mmcblk0p13, type ext4), uses xattr
+[   17.928563] fs_mgr: __mount(source=/dev/block/platform/soc0/e0000000.noc/by-n                                                                                        ame/ImcPartID070,target=/cache,type=ext4)=0
+[   18.030229] Adding 196604k swap on /dev/block/zram0.  Priority:-1 extents:1 a                                                                                        cross:196604k SS
+[   18.039832] SELinux: initialized (dev functionfs, type functionfs), uses genf                                                                                        s_contexts
+[   18.101297] vdump: vdump_get_config
+[   18.105667] vdump: fp_cfg:fffffffe
+[   18.108929] vdump: vdump config not exist
+[   18.113325] vdump: Kernel vdump Thread running.
+[   18.114040] zram: Cannot change disksize for initialized device
+[   18.128058] fs_mgr: swapon failed for /dev/block/zram0
+[   18.266382] binder: 161:161 transaction failed 29189, size 0-0
+[   18.352405] idi_bus_match:gnss-0-ttyGNSS: Using peripheral type for registrat                                                                                        ion process is deprecated
+[   18.361731] idi_bus_match:gnss-0-ttyGNSS: Please idi device id and driver id                                                                                         table
+[   18.370068] ttyGNSS gnss-0: missing usif reset controller
+[   18.372050] logd.auditd: start
+[   18.378820] ttyGNSS gnss-0: default 50ms fci poll
+[   18.383391] ttyGNSS gnss-0: runtime_pm_enabled is disable
+[   18.388986] ttyGNSS gnss-0: runtime_pm_debug is disable
+[   18.394107] ttyGNSS gnss-0: rpm_suspend_delay set to 5000
+[   18.399623] ttyGNSS gnss-0: auto_suspend_enable is disable
+[   18.405015] ttyGNSS gnss-0: Data path property set to IDI
+[   18.411928] gnss-0: ttyGNSS0 at MMIO 0xe7700000 (irq = 299, base_baud = 65000                                                                                        00) is a XGOLD_USIF
+[   18.439519] idi_bus_match:btif-0-ttyBT: Using peripheral type for registratio                                                                                        n process is deprecated
+[   18.448636] idi_bus_match:btif-0-ttyBT: Please idi device id and driver id ta                                                                                        ble
+[   18.455997] ttyBT btif-0: No kernel clock available
+[   18.460881] ttyBT btif-0: No BTIP 78M clock available
+[   18.465775] ttyBT btif-0: No BTIP 104M clock available
+[   18.471063] ttyBT btif-0: No BTIP 32kHz clock available
+[   18.476136] ttyBT btif-0: No BTIP VCXO request available
+[   18.481544] ttyBT btif-0: No BTIP PWM ON request available
+[   18.486991] ttyBT btif-0: No BTIP RF ON request available
+[   18.492387] BTIF device PM registration success
+[   18.497074] btif-0: ttyBT0 at MMIO 0xe7200000 (irq = 0, base_baud = 0) is a X                                                                                        GOLD/BTIF
+y ?shell@Sf3gr_mrd6_p2:/ $ [   18.604169] SELinux: initialized (dev fuse, type f                                                                                        use), uses genfs_contexts
+[   18.656038] random: init urandom read with 117 bits of entropy available
+[   18.699778] opening device
+[   18.702495] [sec_rpc] rpc_call: Found entry ID: 0
+[   18.707150] [sec_rpc] rpc_call: Shared memory block size: 4046
+[   18.946663] type=1400 audit(946684813.360:3): avc: denied { getattr } for pid                                                                                        =217 comm="df" name="/" dev="binfmt_misc" ino=1 scontext=u:r:crashlogd:s0 tconte                                                                                        xt=u:object_r:unlabeled:s0 tclass=filesystem
+[   19.148527] random: nonblocking pool is initialized
+[   19.289962] graphics fb0: rockchip fb use 3 buffers
+[   19.313419] EXT4-fs: Warning: mounting with data=journal disables delayed all                                                                                        ocation and O_DIRECT support!
+[   19.356304] oct: Gadget /data/system/oct_offlog.conf open failed!
+[   19.394589] EXT4-fs (mmcblk0p5): recovery complete
+[   19.402133] EXT4-fs (mmcblk0p5): mounted filesystem with journalled data mode                                                                                        . Opts: data=journal
+[   19.411377] SELinux: initialized (dev mmcblk0p5, type ext4), uses xattr
+[   19.430776] warning: `rpc-daemon' uses 32-bit capabilities (legacy support in                                                                                         use)
+[   19.449948] android_usb: already disabled
+[   19.486521] read descriptors
+[   19.489417] read strings
+[   19.494460] mtp_bind_config
+[   19.499122] rockchip-vop vop0: blank mode:0
+[   19.503801] dwc2 e2100000.usb: s3c_hsotg_corereset: reset failed, GRSTCTL=000                                                                                        00000
+[   19.652288] work_time_func:0
+[   19.757299] Loading modules backported from iwlwifi
+[   19.762309] iwlwifi-stack-slave-bus:release/LinuxCore5:3455:68df6cfe
+[   20.073205] cfg80211: Calling CRDA to update world regulatory domain
+[   20.239698] CIF ISP2.0 v4l2_enum_input(1268) ERR: index 2 out of bounds
+[   20.247804] avc:  denied  { set } for property=media.settings.xml scontext=u:                                                                                        r:mediaserver:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service
+[   20.264780] ttyGNSS gnss-0: tx in process [1]... exiting
+[   20.621010] usb 1-1: new high-speed USB device number 2 using dwc2
+[   20.693314] Intel(R) Wireless WiFi driver for Linux, in-tree:d
+[   20.700237] Copyright(c) 2003- 2014 Intel Corporation
+[   20.707806] IWL_IDI wifi-0: No Wifi clock available
+[   20.713108] IWL_IDI wifi-0: No RTC clock available
+[   20.719598] IWL_IDI wifi-0: Selected bus type = IDI
+[   20.755849] IWL_IDI wifi-0: loaded firmware version 25.228.9.0 op_mode iwlmvm
+[   20.834241] hub 1-1:1.0: USB hub found
+[   20.840579] hub 1-1:1.0: 4 ports detected
+[   20.901837] IWL_IDI wifi-0: Detected Intel(R) Dual Band Wireless BGN7999, REV                                                                                        =0x0
+[   20.912450] IWL_IDI wifi-0: Loaded external partition NVM file nvmData (8800                                                                                         bytes)
+[   20.926057] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[   21.226144] fan54x_charger: charging hrtimer working
+[   21.226152] fan54x_charger: trigger wtd charging work
+[   22.116552] oct: Gadget /data/system/oct_offlog.conf open failed!
+[   22.123144] VNVM-BE: opened device /dev/block/platform/soc0/e0000000.noc/by-n                                                                                        ame/ImcPartID022 size 8388608 bytes
+[   22.133843] VNVM-BE: opened device /dev/block/platform/soc0/e0000000.noc/by-n                                                                                        ame/ImcPartID023 size 1048576 bytes
+[   22.134844] [sec_rpc] rpc_handle_cmd: Release caller sem for RPC context ID#2
+[   22.135217] [sec_rpc] rpc_call: Found entry ID: 0
+[   22.135223] [sec_rpc] rpc_call: Shared memory block size: 4046
+[   22.164187] [sec_rpc] rpc_handle_cmd: Release caller sem for RPC context ID#3
+[   22.169077] VNVM-BE: opened device /dev/block/platform/soc0/e0000000.noc/by-n                                                                                        ame/ImcPartID024 size 1048576 bytes
+[   22.229034] [sec_rpc] rpc_handle_cmd: Release caller sem for RPC context ID#1
+[   22.447830] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SID                                                                                        s
+[   26.176246] fan54x_charger: charging hrtimer working
+[   26.176299] fan54x_charger: trigger wtd charging work
+[   27.459915] request_suspend_state: wakeup (0->0) at 18372487846 (2000-01-01 0                                                                                        0:00:21)
+[   31.126143] fan54x_charger: charging hrtimer working
+[   31.131276] fan54x_charger: trigger wtd charging work
+[   32.033753] lowmemorykiller: lowmem_shrink: convert oom_adj to oom_score_adj:
+[   32.040855] lowmemorykiller: oom_adj 0 => oom_score_adj 0
+[   32.046241] lowmemorykiller: oom_adj 1 => oom_score_adj 58
+[   32.051807] lowmemorykiller: oom_adj 2 => oom_score_adj 117
+[   32.057595] lowmemorykiller: oom_adj 3 => oom_score_adj 176
+[   32.063378] lowmemorykiller: oom_adj 9 => oom_score_adj 529
+[   32.068913] lowmemorykiller: oom_adj 15 => oom_score_adj 1000
+[   33.435564] acc_open
+[   33.438475] acc_release
+]   34.008190] oct: write[/dev/mvpipe-bplog][15]: [at+xsystrace=0
+[   34.215613] oct: read[/dev/mvpipe-bplog]: [at+xsystrace=0
+[   34.215613] OK
+[   34.215613] ]
+[   34.225559] oct: Gadget /dev/ttyGS1 open succeeded.
+[   36.071092] fan54x_charger: charging hrtimer working
+[   36.071127] fan54x_charger: trigger wtd charging work
+[   36.785845] type=1400 audit(946684831.410:4): avc: denied { write } for pid=8                                                                                        51 comm="m.intel.thermal" name="max_freq_level" dev="sysfs" ino=10567 scontext=u                                                                                        :r:system_app:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   36.797574] fan54x_charger: fan54x_charger_set_property: do not enable chargi                                                                                        ng when boost is on
+[   38.431298] kionix_accel 4-000e: ODR = 12.5 Hz
+[   41.021030] fan54x_charger: charging hrtimer working
+[   41.021053] fan54x_charger: trigger wtd charging work
+[   44.429148] type=1400 audit(946684839.150:5): avc: denied { connectto } for p                                                                                        id=1459 comm="Thread-127" path=0052584E5F4D534C5F50475053 scontext=u:r:platform_                                                                                        app:s0 tcontext=u:r:RXN_IntApp:s0 tclass=unix_stream_socket
+[   45.970915] fan54x_charger: charging hrtimer working
+[   45.970977] fan54x_charger: trigger wtd charging work
+[   50.920799] fan54x_charger: charging hrtimer working
+[   50.925668] fan54x_charger: trigger wtd charging work
+[   55.865773] fan54x_charger: charging hrtimer working
+[   55.870769] fan54x_charger: trigger wtd charging work
+[   60.810792] fan54x_charger: charging hrtimer working
+[   60.816003] fan54x_charger: trigger wtd charging work
+[   65.755855] fan54x_charger: charging hrtimer working
+[   65.758306] fan54x_charger: trigger wtd charging work
+[   70.705888] fan54x_charger: charging hrtimer working
+[   70.710846] fan54x_charger: trigger wtd charging work
+[   75.650893] fan54x_charger: charging hrtimer working
+[   75.655862] fan54x_charger: trigger wtd charging work
+[   80.595903] fan54x_charger: charging hrtimer working
+[   80.600875] fan54x_charger: trigger wtd charging work
+[   85.540929] fan54x_charger: charging hrtimer working
+[   85.545911] fan54x_charger: trigger wtd charging work
+[   90.485954] fan54x_charger: charging hrtimer working
+[   90.490924] fan54x_charger: trigger wtd charging work
+[   95.430992] fan54x_charger: charging hrtimer working
+[   95.433217] fan54x_charger: trigger wtd charging work
+[  100.381043] fan54x_charger: charging hrtimer working
+[  100.385742] fan54x_charger: trigger wtd charging work
+[  105.331047] fan54x_charger: charging hrtimer working
+[  105.336015] fan54x_charger: trigger wtd charging work
+[  110.276071] fan54x_charger: charging hrtimer working
+[  110.281051] fan54x_charger: trigger wtd charging work
+[  115.221087] fan54x_charger: charging hrtimer working
+[  115.226052] fan54x_charger: trigger wtd charging work
+[  120.166092] fan54x_charger: charging hrtimer working
+[  120.171052] fan54x_charger: trigger wtd charging work
+[  125.111138] fan54x_charger: charging hrtimer working
+[  125.116127] fan54x_charger: trigger wtd charging work
+[  130.056180] fan54x_charger: charging hrtimer working
+[  130.061145] fan54x_charger: trigger wtd charging work
+[  135.001190] fan54x_charger: charging hrtimer working
+[  135.006160] fan54x_charger: trigger wtd charging work
+[  139.946201] fan54x_charger: charging hrtimer working
+[  139.951297] fan54x_charger: trigger wtd charging work
+[  144.891236] fan54x_charger: charging hrtimer working
+[  144.896218] fan54x_charger: trigger wtd charging work
+[  149.836269] fan54x_charger: charging hrtimer working
+[  149.841243] fan54x_charger: trigger wtd charging work
+[  154.781282] fan54x_charger: charging hrtimer working
+[  154.786243] fan54x_charger: trigger wtd charging work
+[  159.726301] fan54x_charger: charging hrtimer working
+[  159.731269] fan54x_charger: trigger wtd charging work
+[  164.671326] fan54x_charger: charging hrtimer working
+[  164.676295] fan54x_charger: trigger wtd charging work
+[  169.616346] fan54x_charger: charging hrtimer working
+[  169.621320] fan54x_charger: trigger wtd charging work
+[  174.561367] fan54x_charger: charging hrtimer working
+[  174.566341] fan54x_charger: trigger wtd charging work
+[  179.506395] fan54x_charger: charging hrtimer working
+[  179.511363] fan54x_charger: trigger wtd charging work
+[  184.451440] fan54x_charger: charging hrtimer working
+[  184.456404] fan54x_charger: trigger wtd charging work
+[  189.396462] fan54x_charger: charging hrtimer working
+[  189.401439] fan54x_charger: trigger wtd charging work
+[  194.341494] fan54x_charger: charging hrtimer working
+[  194.346468] fan54x_charger: trigger wtd charging work
+[  199.286506] fan54x_charger: charging hrtimer working
+[  199.291487] fan54x_charger: trigger wtd charging work
+[  204.231530] fan54x_charger: charging hrtimer working
+[  204.236627] fan54x_charger: trigger wtd charging work
+[  209.176556] fan54x_charger: charging hrtimer working
+[  209.181512] fan54x_charger: trigger wtd charging work
+[  214.121587] fan54x_charger: charging hrtimer working
+[  214.126549] fan54x_charger: trigger wtd charging work
+[  219.066605] fan54x_charger: charging hrtimer working
+[  219.071586] fan54x_charger: trigger wtd charging work
+[  224.011640] fan54x_charger: charging hrtimer working
+[  224.016760] fan54x_charger: trigger wtd charging work
+[  228.956666] fan54x_charger: charging hrtimer working
+[  228.961637] fan54x_charger: trigger wtd charging work
+[  233.901700] fan54x_charger: charging hrtimer working
+[  233.906668] fan54x_charger: trigger wtd charging work
+[  238.846732] fan54x_charger: charging hrtimer working
+[  238.851859] fan54x_charger: trigger wtd charging work
+[  243.791761] fan54x_charger: charging hrtimer working
+[  243.796732] fan54x_charger: trigger wtd charging work
+[  248.736797] fan54x_charger: charging hrtimer working
+[  248.741780] fan54x_charger: trigger wtd charging work
+[  253.681771] fan54x_charger: charging hrtimer working
+[  253.686714] fan54x_charger: trigger wtd charging work
+[  257.258058] usb 1-1.2: new high-speed USB device number 3 using dwc2
+[  257.358521] usb 1-1.2: device v0781 p5567 is not supported
+[  257.370592] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  257.378689] scsi0 : usb-storage 1-1.2:1.0
+[  258.365748] scsi 0:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  258.385329] sd 0:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  258.396431] sd 0:0:0:0: [sda] Write Protect is off
+[  258.401184] sd 0:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  258.408836] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  258.443424]  sda: sda1
+[  258.472322] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[  258.487295] FAT-fs (sda1): bogus number of reserved sectors
+[  258.493139] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  258.503424] [EXFAT] trying to mount...
+[  258.626684] fan54x_charger: charging hrtimer working
+[  258.630004] fan54x_charger: trigger wtd charging work
+[  258.712241] [EXFAT] mounted successfully
+[  258.717748] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  258.727487] type=1400 audit(946685056.050:6): avc: denied { mount } for pid=180 comm="vold" name="/" dev="sda1" ino=1 scontext=u:r:vold:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem
+[  258.809111] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  258.864455] type=1400 audit(946685056.190:7): avc: denied { getattr } for pid=1679 comm="sdcard" name="/" dev="sda1" ino=1 scontext=u:r:sdcardd:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem
+[  259.086146] type=1400 audit(946685056.420:8): avc: denied { getattr } for pid=1680 comm="sdcard" path="/mnt/media_rw/usbdisk" dev="sda1" ino=1 scontext=u:r:sdcardd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+[  259.397498] type=1400 audit(946685056.730:9): avc: denied { read } for pid=1679 comm="sdcard" name="/" dev="sda1" ino=1 scontext=u:r:sdcardd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+[  259.414798] type=1400 audit(946685056.730:10): avc: denied { open } for pid=1679 comm="sdcard" path="/mnt/media_rw/usbdisk" dev="sda1" ino=1 scontext=u:r:sdcardd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+[  261.357896] usb 1-1.2: USB disconnect, device number 3
+[  262.859036] usb 1-1.2: new high-speed USB device number 4 using dwc2
+[  262.960620] usb 1-1.2: device v0781 p5567 is not supported
+[  262.973929] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  262.981830] scsi1 : usb-storage 1-1.2:1.0
+[  263.404939] type=1400 audit(946685060.790:11): avc: denied { unmount } for pid=174 comm="vold" scontext=u:r:vold:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem
+[  263.451962] [EXFAT] trying to unmount...
+[  263.455843] [EXFAT] unmounted successfully
+[  263.460297] ------------[ cut here ]------------
+[  263.465064] WARNING: CPU: 3 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  263.476958] sysfs group 8136d5a0 not found for kobject 'target0:0:0'
+[  263.483529] CPU: 3 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  263.490261] Call Trace:
+[  263.492938]  [<80f297ee>] dump_stack+0x4b/0x75
+[  263.497289]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  263.502726]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  263.507878]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  263.513260]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  263.518133]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  263.523317]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  263.528140]  [<80b7abf1>] device_del+0x31/0x150
+[  263.532688]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  263.538532]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  263.543979]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  263.549634]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  263.554690]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  263.561365]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  263.566940]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  263.572778]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  263.576579] fan54x_charger: charging hrtimer working
+[  263.576641] fan54x_charger: trigger wtd charging work
+[  263.588527]  [<80b7a2c1>] device_release+0x31/0xa0
+[  263.593697]  [<8093764a>] ? kfree+0x13a/0x180
+[  263.597897]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  263.603056]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  263.607860]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  263.613033]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  263.618657]  [<80ac6d25>] kobject_put+0x25/0x60
+[  263.623252]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  263.627844]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  263.633195]  [<80b7a0b4>] put_device+0x14/0x20
+[  263.637476]  [<80bae947>] scsi_device_put+0x37/0x60
+[  263.642372]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  263.646966]  [<80bbe2c3>] sd_release+0x33/0x60
+[  263.651453]  [<80978df0>] __blkdev_put+0x130/0x160
+[  263.656107]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  263.660862]  [<80978e69>] blkdev_put+0x49/0x130
+[  263.665260]  [<80948111>] kill_block_super+0x41/0x70
+[  263.670300]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  263.675354]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  263.681013]  [<80948d27>] deactivate_super+0x47/0x60
+[  263.685932]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  263.690972]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  263.695363]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  263.701585] ---[ end trace a338f233f0215f00 ]---
+[  263.977675] scsi 1:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  263.995766] sd 1:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  264.006296] sd 1:0:0:0: [sda] Write Protect is off
+[  264.011110] sd 1:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  264.018189] sd 1:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  264.053030]  sda: sda1
+[  264.071892] sd 1:0:0:0: [sda] Attached SCSI removable disk
+[  264.084019] FAT-fs (sda1): bogus number of reserved sectors
+[  264.092635] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  264.106241] [EXFAT] trying to mount...
+[  264.290720] [EXFAT] mounted successfully
+[  264.295901] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  264.303955] type=1400 audit(946685061.700:12): avc: denied { mount } for pid=180 comm="vold" name="/" dev="sda1" ino=1 scontext=u:r:vold:s0 tcontext=u:object_r:unlabeled:s0 tclass=filesystem
+[  264.368525] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  264.398271] type=1400 audit(946685061.790:13): avc: denied { getattr } for pid=1695 comm="sdcard" path="/mnt/media_rw/usbdisk" dev="sda1" ino=1 scontext=u:r:sdcardd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+[  264.627026] type=1400 audit(946685062.020:14): avc: denied { read } for pid=1695 comm="sdcard" name="/" dev="sda1" ino=1 scontext=u:r:sdcardd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+[  264.644028] type=1400 audit(946685062.020:15): avc: denied { open } for pid=1695 comm="sdcard" path="/mnt/media_rw/usbdisk" dev="sda1" ino=1 scontext=u:r:sdcardd:s0 tcontext=u:object_r:unlabeled:s0 tclass=dir
+[  267.429866] usb 1-1.2: USB disconnect, device number 4
+[  268.516668] fan54x_charger: charging hrtimer working
+[  268.519794] fan54x_charger: trigger wtd charging work
+[  268.678481] usb 1-1.2: new high-speed USB device number 5 using dwc2
+[  268.779267] usb 1-1.2: device v0781 p5567 is not supported
+[  268.789585] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  268.797429] scsi2 : usb-storage 1-1.2:1.0
+[  269.498543] [EXFAT] trying to unmount...
+[  269.502555] [EXFAT] unmounted successfully
+[  269.506975] ------------[ cut here ]------------
+[  269.511788] WARNING: CPU: 2 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  269.523692] sysfs group 8136d5a0 not found for kobject 'target1:0:0'
+[  269.530220] CPU: 2 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  269.536790] Call Trace:
+[  269.539331]  [<80f297ee>] dump_stack+0x4b/0x75
+[  269.543635]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  269.549241]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  269.554491]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  269.559737]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  269.564730]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  269.569954]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  269.574916]  [<80b7abf1>] device_del+0x31/0x150
+[  269.579409]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  269.585311]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  269.590676]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  269.596373]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  269.601579]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  269.608193]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  269.613800]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  269.619654]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  269.625090]  [<80b7a2c1>] device_release+0x31/0xa0
+[  269.630021]  [<8093764a>] ? kfree+0x13a/0x180
+[  269.634271]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  269.639561]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  269.644368]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  269.649602]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  269.655193]  [<80ac6d25>] kobject_put+0x25/0x60
+[  269.659748]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  269.664308]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  269.669634]  [<80b7a0b4>] put_device+0x14/0x20
+[  269.674012]  [<80bae947>] scsi_device_put+0x37/0x60
+[  269.678854]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  269.683417]  [<80bbe2c3>] sd_release+0x33/0x60
+[  269.688008]  [<80978df0>] __blkdev_put+0x130/0x160
+[  269.692689]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  269.697447]  [<80978e69>] blkdev_put+0x49/0x130
+[  269.701833]  [<80948111>] kill_block_super+0x41/0x70
+[  269.706807]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  269.712031]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  269.717606]  [<80948d27>] deactivate_super+0x47/0x60
+[  269.722435]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  269.727461]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  269.731884]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  269.737099] ---[ end trace a338f233f0215f01 ]---
+[  269.787050] scsi 2:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  269.805662] sd 2:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  269.817135] sd 2:0:0:0: [sda] Write Protect is off
+[  269.821801] sd 2:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  269.829016] sd 2:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  269.862648]  sda: sda1
+[  269.880991] sd 2:0:0:0: [sda] Attached SCSI removable disk
+[  269.891516] FAT-fs (sda1): bogus number of reserved sectors
+[  269.897213] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  269.905394] [EXFAT] trying to mount...
+[  270.077370] [EXFAT] mounted successfully
+[  270.083656] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  270.146298] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  271.477837] usb 1-1.2: USB disconnect, device number 5
+[  273.243183] usb 1-1.2: new high-speed USB device number 6 using dwc2
+[  273.345048] usb 1-1.2: device v0781 p5567 is not supported
+[  273.358162] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  273.365928] scsi3 : usb-storage 1-1.2:1.0
+[  273.466565] fan54x_charger: charging hrtimer working
+[  273.466629] fan54x_charger: trigger wtd charging work
+[  273.569406] [EXFAT] trying to unmount...
+[  273.573296] [EXFAT] unmounted successfully
+[  273.577931] ------------[ cut here ]------------
+[  273.582643] WARNING: CPU: 3 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  273.595483] sysfs group 8136d5a0 not found for kobject 'target2:0:0'
+[  273.602008] CPU: 3 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  273.608821] Call Trace:
+[  273.611134]  [<80f297ee>] dump_stack+0x4b/0x75
+[  273.615541]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  273.621311]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  273.626451]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  273.631898]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  273.636866]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  273.641978]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  273.646795]  [<80b7abf1>] device_del+0x31/0x150
+[  273.651433]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  273.657341]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  273.662589]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  273.668443]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  273.673283]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  273.679995]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  273.685583]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  273.691467]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  273.696963]  [<80b7a2c1>] device_release+0x31/0xa0
+[  273.701630]  [<8093764a>] ? kfree+0x13a/0x180
+[  273.705956]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  273.711131]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  273.715946]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  273.721115]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  273.726741]  [<80ac6d25>] kobject_put+0x25/0x60
+[  273.731154]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  273.735800]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  273.741157]  [<80b7a0b4>] put_device+0x14/0x20
+[  273.745438]  [<80bae947>] scsi_device_put+0x37/0x60
+[  273.750349]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  273.754901]  [<80bbe2c3>] sd_release+0x33/0x60
+[  273.759408]  [<80978df0>] __blkdev_put+0x130/0x160
+[  273.764026]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  273.768743]  [<80978e69>] blkdev_put+0x49/0x130
+[  273.773169]  [<80948111>] kill_block_super+0x41/0x70
+[  273.778189]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  273.783235]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  273.788857]  [<80948d27>] deactivate_super+0x47/0x60
+[  273.793677]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  273.798760]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  273.803119]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  273.808327] ---[ end trace a338f233f0215f02 ]---
+[  274.361372] scsi 3:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  274.379775] sd 3:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  274.390016] sd 3:0:0:0: [sda] Write Protect is off
+[  274.394727] sd 3:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  274.401875] sd 3:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  274.435037]  sda: sda1
+[  274.455883] sd 3:0:0:0: [sda] Attached SCSI removable disk
+[  274.465037] FAT-fs (sda1): bogus number of reserved sectors
+[  274.470748] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  274.479242] [EXFAT] trying to mount...
+[  274.649400] [EXFAT] mounted successfully
+[  274.655602] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  274.723879] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  278.416497] fan54x_charger: charging hrtimer working
+[  278.416933] fan54x_charger: trigger wtd charging work
+[  280.079973] usb 1-1.2: USB disconnect, device number 6
+[  281.829065] usb 1-1.2: new high-speed USB device number 7 using dwc2
+[  281.930159] usb 1-1.2: device v0781 p5567 is not supported
+[  281.939629] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  281.946807] scsi4 : usb-storage 1-1.2:1.0
+[  282.164888] [EXFAT] trying to unmount...
+[  282.168774] [EXFAT] unmounted successfully
+[  282.173495] ------------[ cut here ]------------
+[  282.178319] WARNING: CPU: 2 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  282.190305] sysfs group 8136d5a0 not found for kobject 'target3:0:0'
+[  282.196912] CPU: 2 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  282.203724] Call Trace:
+[  282.206104]  [<80f297ee>] dump_stack+0x4b/0x75
+[  282.210654]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  282.215964]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  282.221276]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  282.226587]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  282.231616]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  282.236963]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  282.241839]  [<80b7abf1>] device_del+0x31/0x150
+[  282.246558]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  282.252461]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  282.257943]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  282.263841]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  282.268822]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  282.275681]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  282.281359]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  282.287179]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  282.292729]  [<80b7a2c1>] device_release+0x31/0xa0
+[  282.297549]  [<8093764a>] ? kfree+0x13a/0x180
+[  282.301847]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  282.307071]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  282.311954]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  282.317186]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  282.322922]  [<80ac6d25>] kobject_put+0x25/0x60
+[  282.327441]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  282.332272]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  282.337508]  [<80b7a0b4>] put_device+0x14/0x20
+[  282.342051]  [<80bae947>] scsi_device_put+0x37/0x60
+[  282.346834]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  282.351489]  [<80bbe2c3>] sd_release+0x33/0x60
+[  282.356161]  [<80978df0>] __blkdev_put+0x130/0x160
+[  282.360870]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  282.365692]  [<80978e69>] blkdev_put+0x49/0x130
+[  282.370132]  [<80948111>] kill_block_super+0x41/0x70
+[  282.375173]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  282.380417]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  282.386043]  [<80948d27>] deactivate_super+0x47/0x60
+[  282.390918]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  282.396017]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  282.400476]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  282.405579] ---[ end trace a338f233f0215f03 ]---
+[  282.938957] scsi 4:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  282.959086] sd 4:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  282.969238] sd 4:0:0:0: [sda] Write Protect is off
+[  282.973950] sd 4:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  282.980685] sd 4:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  283.013939]  sda: sda1
+[  283.035405] sd 4:0:0:0: [sda] Attached SCSI removable disk
+[  283.045023] FAT-fs (sda1): bogus number of reserved sectors
+[  283.050486] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  283.057722] [EXFAT] trying to mount...
+[  283.237118] [EXFAT] mounted successfully
+[  283.242171] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  283.299065] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  283.366561] fan54x_charger: charging hrtimer working
+[  283.366624] fan54x_charger: trigger wtd charging work
+[  286.404648] usb 1-1.2: USB disconnect, device number 7
+[  287.648360] usb 1-1.2: new high-speed USB device number 8 using dwc2
+[  287.749884] usb 1-1.2: device v0781 p5567 is not supported
+[  287.766539] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  287.774336] scsi5 : usb-storage 1-1.2:1.0
+[  288.316446] fan54x_charger: charging hrtimer working
+[  288.321466] fan54x_charger: trigger wtd charging work
+[  288.488048] [EXFAT] trying to unmount...
+[  288.491961] [EXFAT] unmounted successfully
+[  288.496523] ------------[ cut here ]------------
+[  288.501312] WARNING: CPU: 3 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  288.513436] sysfs group 8136d5a0 not found for kobject 'target4:0:0'
+[  288.520476] CPU: 3 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  288.527114] Call Trace:
+[  288.529437]  [<80f297ee>] dump_stack+0x4b/0x75
+[  288.533823]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  288.539202]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  288.544397]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  288.549797]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  288.554710]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  288.560088]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  288.564943]  [<80b7abf1>] device_del+0x31/0x150
+[  288.569533]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  288.575360]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  288.580808]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  288.586591]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  288.591514]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  288.598181]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  288.603765]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  288.609805]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  288.615265]  [<80b7a2c1>] device_release+0x31/0xa0
+[  288.620103]  [<8093764a>] ? kfree+0x13a/0x180
+[  288.624298]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  288.629478]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  288.634298]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  288.639482]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  288.645051]  [<80ac6d25>] kobject_put+0x25/0x60
+[  288.649685]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  288.654246]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  288.659584]  [<80b7a0b4>] put_device+0x14/0x20
+[  288.663886]  [<80bae947>] scsi_device_put+0x37/0x60
+[  288.668797]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  288.673362]  [<80bbe2c3>] sd_release+0x33/0x60
+[  288.677843]  [<80978df0>] __blkdev_put+0x130/0x160
+[  288.682490]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  288.687355]  [<80978e69>] blkdev_put+0x49/0x130
+[  288.691734]  [<80948111>] kill_block_super+0x41/0x70
+[  288.696745]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  288.701820]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  288.707415]  [<80948d27>] deactivate_super+0x47/0x60
+[  288.712260]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  288.717318]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  288.721722]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  288.726805] ---[ end trace a338f233f0215f04 ]---
+[  288.766432] scsi 5:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  288.782954] sd 5:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  288.793682] sd 5:0:0:0: [sda] Write Protect is off
+[  288.798729] sd 5:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  288.805622] sd 5:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  288.841309]  sda: sda1
+[  288.860480] sd 5:0:0:0: [sda] Attached SCSI removable disk
+[  288.872667] FAT-fs (sda1): bogus number of reserved sectors
+[  288.879644] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  288.888889] [EXFAT] trying to mount...
+[  289.072742] [EXFAT] mounted successfully
+[  289.077805] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  289.131429] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  290.958540] usb 1-1.2: USB disconnect, device number 8
+[  293.043172] [EXFAT] trying to unmount...
+[  293.047050] [EXFAT] unmounted successfully
+[  293.051938] ------------[ cut here ]------------
+[  293.056519] WARNING: CPU: 3 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  293.068570] sysfs group 8136d5a0 not found for kobject 'target5:0:0'
+[  293.075125] CPU: 3 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  293.081913] Call Trace:
+[  293.084296]  [<80f297ee>] dump_stack+0x4b/0x75
+[  293.088793]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  293.094388]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  293.099663]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  293.104979]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  293.109919]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  293.115245]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  293.120117]  [<80b7abf1>] device_del+0x31/0x150
+[  293.124645]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  293.130474]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  293.135904]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  293.141707]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  293.146515]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  293.153199]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  293.158816]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  293.164636]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  293.170087]  [<80b7a2c1>] device_release+0x31/0xa0
+[  293.174879]  [<8093764a>] ? kfree+0x13a/0x180
+[  293.179122]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  293.184275]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  293.189104]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  293.194300]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  293.199958]  [<80ac6d25>] kobject_put+0x25/0x60
+[  293.204335]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  293.209055]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  293.214311]  [<80b7a0b4>] put_device+0x14/0x20
+[  293.218625]  [<80bae947>] scsi_device_put+0x37/0x60
+[  293.223532]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  293.228089]  [<80bbe2c3>] sd_release+0x33/0x60
+[  293.232570]  [<80978df0>] __blkdev_put+0x130/0x160
+[  293.237216]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  293.241977]  [<80978e69>] blkdev_put+0x49/0x130
+[  293.246362]  [<80948111>] kill_block_super+0x41/0x70
+[  293.251370]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  293.256469]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  293.261331] fan54x_charger: charging hrtimer working
+[  293.261373] fan54x_charger: trigger wtd charging work
+[  293.272256]  [<80948d27>] deactivate_super+0x47/0x60
+[  293.277185]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  293.282241]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  293.286648]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  293.291711] ---[ end trace a338f233f0215f05 ]---
+[  293.496664] usb 1-1: reset high-speed USB device number 2 using dwc2
+[  293.921435] usb 1-1: USB disconnect, device number 2
+[  294.148624] usb 1-1: new high-speed USB device number 9 using dwc2
+[  294.364384] hub 1-1:1.0: USB hub found
+[  294.371615] hub 1-1:1.0: 4 ports detected
+[  294.652926] usb 1-1.2: new high-speed USB device number 10 using dwc2
+[  294.754080] usb 1-1.2: device v0781 p5567 is not supported
+[  294.766184] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  294.774665] scsi6 : usb-storage 1-1.2:1.0
+[  295.771888] scsi 6:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  295.787918] sd 6:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  295.798413] sd 6:0:0:0: [sda] Write Protect is off
+[  295.803114] sd 6:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  295.809861] sd 6:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  295.844368]  sda: sda1
+[  295.866585] FAT-fs (sda1): bogus number of reserved sectors
+[  295.869820] sd 6:0:0:0: [sda] Attached SCSI removable disk
+[  295.877592] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  295.885484] [EXFAT] trying to mount...
+[  296.080467] [EXFAT] mounted successfully
+[  296.085479] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  296.140048] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  298.201427] fan54x_charger: charging hrtimer working
+[  298.201476] fan54x_charger: trigger wtd charging work
+[  299.635780] usb 1-1.2: USB disconnect, device number 10
+[  301.727115] [EXFAT] trying to unmount...
+[  301.730966] [EXFAT] unmounted successfully
+[  301.735474] ------------[ cut here ]------------
+[  301.740192] WARNING: CPU: 0 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  301.752054] sysfs group 8136d5a0 not found for kobject 'target6:0:0'
+[  301.758529] CPU: 0 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  301.765260] Call Trace:
+[  301.767993]  [<80f297ee>] dump_stack+0x4b/0x75
+[  301.772275]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  301.777663]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  301.782792]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  301.788174]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  301.793070]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  301.798485]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  301.803301]  [<80b7abf1>] device_del+0x31/0x150
+[  301.807801]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  301.813673]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  301.819098]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  301.824839]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  301.829753]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  301.836414]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  301.841985]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  301.847808]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  301.853325]  [<80b7a2c1>] device_release+0x31/0xa0
+[  301.858302]  [<8093764a>] ? kfree+0x13a/0x180
+[  301.862543]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  301.867633]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  301.872525]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  301.877634]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  301.883275]  [<80ac6d25>] kobject_put+0x25/0x60
+[  301.887837]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  301.892374]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  301.897717]  [<80b7a0b4>] put_device+0x14/0x20
+[  301.902004]  [<80bae947>] scsi_device_put+0x37/0x60
+[  301.906893]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  301.911468]  [<80bbe2c3>] sd_release+0x33/0x60
+[  301.915930]  [<80978df0>] __blkdev_put+0x130/0x160
+[  301.920592]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  301.925384]  [<80978e69>] blkdev_put+0x49/0x130
+[  301.929751]  [<80948111>] kill_block_super+0x41/0x70
+[  301.934741]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  301.939821]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  301.945397]  [<80948d27>] deactivate_super+0x47/0x60
+[  301.950217]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  301.955342]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  301.959713]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  301.965105] ---[ end trace a338f233f0215f06 ]---
+[  302.329380] usb 1-1: reset high-speed USB device number 9 using dwc2
+[  302.754159] usb 1-1: USB disconnect, device number 9
+[  303.001148] usb 1-1: new high-speed USB device number 11 using dwc2
+[  303.151332] fan54x_charger: charging hrtimer working
+[  303.156279] fan54x_charger: trigger wtd charging work
+[  303.215259] hub 1-1:1.0: USB hub found
+[  303.219849] hub 1-1:1.0: 4 ports detected
+[  303.495703] usb 1-1.2: new high-speed USB device number 12 using dwc2
+[  303.596878] usb 1-1.2: device v0781 p5567 is not supported
+[  303.610522] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  303.618655] scsi7 : usb-storage 1-1.2:1.0
+[  304.614386] scsi 7:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  304.634786] sd 7:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  304.645477] sd 7:0:0:0: [sda] Write Protect is off
+[  304.650145] sd 7:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  304.657552] sd 7:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  304.694527]  sda: sda1
+[  304.710647] sd 7:0:0:0: [sda] Attached SCSI removable disk
+[  304.721493] FAT-fs (sda1): bogus number of reserved sectors
+[  304.727048] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  304.735790] [EXFAT] trying to mount...
+[  304.913328] [EXFAT] mounted successfully
+[  304.918429] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  304.967691] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  307.482915] usb 1-1.2: USB disconnect, device number 12
+[  308.096234] fan54x_charger: charging hrtimer working
+[  308.096910] fan54x_charger: trigger wtd charging work
+[  309.552346] [EXFAT] trying to unmount...
+[  309.556197] [EXFAT] unmounted successfully
+[  309.560743] ------------[ cut here ]------------
+[  309.565579] WARNING: CPU: 1 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  309.577446] sysfs group 8136d5a0 not found for kobject 'target7:0:0'
+[  309.583933] CPU: 1 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  309.590576] Call Trace:
+[  309.593387]  [<80f297ee>] dump_stack+0x4b/0x75
+[  309.597661]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  309.603129]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  309.608292]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  309.613639]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  309.618570]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  309.623680]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  309.628489]  [<80b7abf1>] device_del+0x31/0x150
+[  309.633079]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  309.638919]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  309.644339]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  309.650082]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  309.654911]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  309.661688]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  309.667261]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  309.673086]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  309.678515]  [<80b7a2c1>] device_release+0x31/0xa0
+[  309.683337]  [<8093764a>] ? kfree+0x13a/0x180
+[  309.687648]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  309.692694]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  309.697533]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  309.702691]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  309.708291]  [<80ac6d25>] kobject_put+0x25/0x60
+[  309.712850]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  309.717416]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  309.722757]  [<80b7a0b4>] put_device+0x14/0x20
+[  309.727055]  [<80bae947>] scsi_device_put+0x37/0x60
+[  309.731945]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  309.736518]  [<80bbe2c3>] sd_release+0x33/0x60
+[  309.741008]  [<80978df0>] __blkdev_put+0x130/0x160
+[  309.745640]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  309.750399]  [<80978e69>] blkdev_put+0x49/0x130
+[  309.754766]  [<80948111>] kill_block_super+0x41/0x70
+[  309.759812]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  309.764843]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  309.770424]  [<80948d27>] deactivate_super+0x47/0x60
+[  309.775257]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  309.780335]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  309.784725]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  309.795020] ---[ end trace a338f233f0215f07 ]---
+[  310.154270] usb 1-1: reset high-speed USB device number 11 using dwc2
+[  310.579067] usb 1-1: USB disconnect, device number 11
+[  310.806408] usb 1-1: new high-speed USB device number 13 using dwc2
+[  311.020373] hub 1-1:1.0: USB hub found
+[  311.024921] hub 1-1:1.0: 4 ports detected
+[  311.310627] usb 1-1.2: new high-speed USB device number 14 using dwc2
+[  311.412375] usb 1-1.2: device v0781 p5567 is not supported
+[  311.425654] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  311.433447] scsi8 : usb-storage 1-1.2:1.0
+[  312.429112] scsi 8:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  312.447577] sd 8:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  312.457971] sd 8:0:0:0: [sda] Write Protect is off
+[  312.462719] sd 8:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  312.472669] sd 8:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  312.507287]  sda: sda1
+[  312.534621] sd 8:0:0:0: [sda] Attached SCSI removable disk
+[  312.543133] FAT-fs (sda1): bogus number of reserved sectors
+[  312.548841] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  312.558743] [EXFAT] trying to mount...
+[  312.733945] [EXFAT] mounted successfully
+[  312.738979] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  312.797493] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  313.046132] fan54x_charger: charging hrtimer working
+[  313.047419] fan54x_charger: trigger wtd charging work
+[  314.023660] usb 1-1.2: USB disconnect, device number 14
+[  315.465508] type=1400 audit(946685113.480:16): avc: denied { search } for pid=198 comm="crashlogd" name="/" dev="fuse" ino=0 scontext=u:r:crashlogd:s0 tcontext=u:object_r:fuse:s0 tclass=dir
+[  315.519567] usb 1-1.2: new high-speed USB device number 15 using dwc2
+[  315.621033] usb 1-1.2: device v0781 p5567 is not supported
+[  315.635113] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  315.643338] scsi9 : usb-storage 1-1.2:1.0
+[  316.112690] [EXFAT] trying to unmount...
+[  316.116550] [EXFAT] unmounted successfully
+[  316.120973] ------------[ cut here ]------------
+[  316.125520] WARNING: CPU: 3 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  316.137333] sysfs group 8136d5a0 not found for kobject 'target8:0:0'
+[  316.143849] CPU: 3 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  316.150417] Call Trace:
+[  316.152868]  [<80f297ee>] dump_stack+0x4b/0x75
+[  316.157147]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  316.162556]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  316.167700]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  316.173379]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  316.178259]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  316.183426]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  316.188226]  [<80b7abf1>] device_del+0x31/0x150
+[  316.192775]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  316.198641]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  316.204063]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  316.209738]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  316.214724]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  316.221390]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  316.226950]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  316.232780]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  316.238224]  [<80b7a2c1>] device_release+0x31/0xa0
+[  316.243098]  [<8093764a>] ? kfree+0x13a/0x180
+[  316.247270]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  316.252507]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  316.257288]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  316.262473]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  316.268044]  [<80ac6d25>] kobject_put+0x25/0x60
+[  316.272632]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  316.277192]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  316.282554]  [<80b7a0b4>] put_device+0x14/0x20
+[  316.286827]  [<80bae947>] scsi_device_put+0x37/0x60
+[  316.291726]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  316.296290]  [<80bbe2c3>] sd_release+0x33/0x60
+[  316.300813]  [<80978df0>] __blkdev_put+0x130/0x160
+[  316.305457]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  316.310165]  [<80978e69>] blkdev_put+0x49/0x130
+[  316.314578]  [<80948111>] kill_block_super+0x41/0x70
+[  316.319564]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  316.324649]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  316.330234]  [<80948d27>] deactivate_super+0x47/0x60
+[  316.335062]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  316.340194]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  316.344536]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  316.349629] ---[ end trace a338f233f0215f08 ]---
+[  316.637809] scsi 9:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  316.656200] sd 9:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  316.668315] sd 9:0:0:0: [sda] Write Protect is off
+[  316.673199] sd 9:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  316.680499] sd 9:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  316.716436]  sda: sda1
+[  316.731600] sd 9:0:0:0: [sda] Attached SCSI removable disk
+[  316.741013] FAT-fs (sda1): bogus number of reserved sectors
+[  316.747082] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  316.755188] [EXFAT] trying to mount...
+[  316.921644] [EXFAT] mounted successfully
+[  316.927080] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  316.980412] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  317.996050] fan54x_charger: charging hrtimer working
+[  317.996098] fan54x_charger: trigger wtd charging work
+[  318.324275] usb 1-1.2: USB disconnect, device number 15
+[  319.827125] usb 1-1.2: new high-speed USB device number 16 using dwc2
+[  319.928998] usb 1-1.2: device v0781 p5567 is not supported
+[  319.936560] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  319.944205] scsi10 : usb-storage 1-1.2:1.0
+[  320.400376] [EXFAT] trying to unmount...
+[  320.404481] [EXFAT] unmounted successfully
+[  320.409064] ------------[ cut here ]------------
+[  320.413828] WARNING: CPU: 3 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  320.425706] sysfs group 8136d5a0 not found for kobject 'target9:0:0'
+[  320.432466] CPU: 3 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  320.439175] Call Trace:
+[  320.441493]  [<80f297ee>] dump_stack+0x4b/0x75
+[  320.445882]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  320.451229]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  320.456365]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  320.461825]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  320.466742]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  320.471945]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  320.476739]  [<80b7abf1>] device_del+0x31/0x150
+[  320.481365]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  320.487225]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  320.492633]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  320.498446]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  320.503274]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  320.509985]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  320.515581]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  320.521460]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  320.526851]  [<80b7a2c1>] device_release+0x31/0xa0
+[  320.531656]  [<8093764a>] ? kfree+0x13a/0x180
+[  320.535885]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  320.541093]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  320.545956]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  320.551149]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  320.556793]  [<80ac6d25>] kobject_put+0x25/0x60
+[  320.561411]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  320.565989]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  320.571304]  [<80b7a0b4>] put_device+0x14/0x20
+[  320.575602]  [<80bae947>] scsi_device_put+0x37/0x60
+[  320.580518]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  320.585094]  [<80bbe2c3>] sd_release+0x33/0x60
+[  320.589565]  [<80978df0>] __blkdev_put+0x130/0x160
+[  320.594214]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  320.598937]  [<80978e69>] blkdev_put+0x49/0x130
+[  320.603315]  [<80948111>] kill_block_super+0x41/0x70
+[  320.608279]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  320.613399]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  320.619042]  [<80948d27>] deactivate_super+0x47/0x60
+[  320.623869]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  320.628979]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  320.633349]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  320.638595] ---[ end trace a338f233f0215f09 ]---
+[  320.935429] scsi 10:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  320.950969] sd 10:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  320.961524] sd 10:0:0:0: [sda] Write Protect is off
+[  320.966742] sd 10:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  320.974105] sd 10:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  321.009492]  sda: sda1
+[  321.026982] sd 10:0:0:0: [sda] Attached SCSI removable disk
+[  321.037262] FAT-fs (sda1): bogus number of reserved sectors
+[  321.042929] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  321.049844] [EXFAT] trying to mount...
+[  321.238237] [EXFAT] mounted successfully
+[  321.243494] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  321.302941] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  322.946041] fan54x_charger: charging hrtimer working
+[  322.946099] fan54x_charger: trigger wtd charging work
+[  323.384930] usb 1-1.2: USB disconnect, device number 16
+[  325.470478] [EXFAT] trying to unmount...
+[  325.474320] [EXFAT] unmounted successfully
+[  325.479813] ------------[ cut here ]------------
+[  325.484643] WARNING: CPU: 0 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  325.496479] sysfs group 8136d5a0 not found for kobject 'target10:0:0'
+[  325.503001] CPU: 0 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  325.509852] Call Trace:
+[  325.512157]  [<80f297ee>] dump_stack+0x4b/0x75
+[  325.516539]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  325.522189]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  325.527371]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  325.532634]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  325.537618]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  325.542633]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  325.547585]  [<80b7abf1>] device_del+0x31/0x150
+[  325.552020]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  325.558083]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  325.563293]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  325.569198]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  325.573972]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  325.581115]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  325.586857]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  325.592658]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  325.598168]  [<80b7a2c1>] device_release+0x31/0xa0
+[  325.602835]  [<8093764a>] ? kfree+0x13a/0x180
+[  325.607209]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  325.612155]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  325.617135]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  325.622139]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  325.627930]  [<80ac6d25>] kobject_put+0x25/0x60
+[  325.632291]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  325.637011]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  325.642251]  [<80b7a0b4>] put_device+0x14/0x20
+[  325.646650]  [<80bae947>] scsi_device_put+0x37/0x60
+[  325.651399]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  325.656112]  [<80bbe2c3>] sd_release+0x33/0x60
+[  325.660437]  [<80978df0>] __blkdev_put+0x130/0x160
+[  325.665168]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  325.669874]  [<80978e69>] blkdev_put+0x49/0x130
+[  325.674292]  [<80948111>] kill_block_super+0x41/0x70
+[  325.679316]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  325.684360]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  325.690003]  [<80948d27>] deactivate_super+0x47/0x60
+[  325.694785]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  325.699830]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  325.704249]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  325.709211] ---[ end trace a338f233f0215f0a ]---
+[  325.942701] usb 1-1: reset high-speed USB device number 13 using dwc2
+[  326.367276] usb 1-1: USB disconnect, device number 13
+[  326.614432] usb 1-1: new high-speed USB device number 17 using dwc2
+[  326.827456] hub 1-1:1.0: USB hub found
+[  326.831864] hub 1-1:1.0: 4 ports detected
+[  327.108867] usb 1-1.2: new high-speed USB device number 18 using dwc2
+[  327.210334] usb 1-1.2: device v0781 p5567 is not supported
+[  327.219174] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[  327.227495] scsi11 : usb-storage 1-1.2:1.0
+[  327.895976] fan54x_charger: charging hrtimer working
+[  327.896000] fan54x_charger: trigger wtd charging work
+[  328.216983] scsi 11:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.27 PQ: 0 ANSI: 6
+[  328.233969] sd 11:0:0:0: [sda] 30529536 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[  328.245307] sd 11:0:0:0: [sda] Write Protect is off
+[  328.250920] sd 11:0:0:0: [sda] Mode Sense: 43 00 00 00
+[  328.259595] sd 11:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[  328.294690]  sda: sda1
+[  328.310772] sd 11:0:0:0: [sda] Attached SCSI removable disk
+[  328.319935] FAT-fs (sda1): bogus number of reserved sectors
+[  328.325654] FAT-fs (sda1): Can't find a valid FAT filesystem
+[  328.332615] [EXFAT] trying to mount...
+[  328.512271] [EXFAT] mounted successfully
+[  328.517209] SELinux: initialized (dev sda1, type exfat), not configured for labeling
+[  328.571577] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  330.344587] usb 1-1.2: USB disconnect, device number 18
+[  332.414806] [EXFAT] trying to unmount...
+[  332.418836] [EXFAT] unmounted successfully
+[  332.423347] ------------[ cut here ]------------
+[  332.428096] WARNING: CPU: 3 PID: 174 at /fwork2/public1/evk_main/eng/linux-3.10/fs/sysfs/group.c:216 sysfs_remove_group+0x97/0xa0()
+[  332.439894] sysfs group 8136d5a0 not found for kobject 'target11:0:0'
+[  332.446489] CPU: 2 PID: 174 Comm: vold Tainted: G        W  O 3.14.0 #3
+[  332.453413] Call Trace:
+[  332.455733]  [<80f297ee>] dump_stack+0x4b/0x75
+[  332.460115]  [<808403e4>] warn_slowpath_common+0x84/0xa0
+[  332.465510]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  332.470654]  [<809a2517>] ? sysfs_remove_group+0x97/0xa0
+[  332.475988]  [<808404a3>] warn_slowpath_fmt+0x33/0x40
+[  332.480914]  [<809a2517>] sysfs_remove_group+0x97/0xa0
+[  332.486280]  [<80b83202>] dpm_sysfs_remove+0x32/0x40
+[  332.491097]  [<80b7abf1>] device_del+0x31/0x150
+[  332.495685]  [<80bb7beb>] scsi_target_reap_usercontext+0x2b/0x40
+[  332.501617]  [<80bb7bc0>] ? scsi_target_destroy+0x90/0x90
+[  332.506988]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  332.512794]  [<80bb8934>] scsi_target_reap+0xa4/0xc0
+[  332.517579]  [<80bba827>] scsi_device_dev_release_usercontext+0xd7/0x110
+[  332.524537]  [<80bba750>] ? scsi_device_dev_release+0x20/0x20
+[  332.530134]  [<80857c5c>] execute_in_process_context+0x4c/0x60
+[  332.536023]  [<80bba748>] scsi_device_dev_release+0x18/0x20
+[  332.541512]  [<80b7a2c1>] device_release+0x31/0xa0
+[  332.546389]  [<8093764a>] ? kfree+0x13a/0x180
+[  332.550595]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  332.555739]  [<80ac6e78>] kobject_cleanup+0x78/0x1b0
+[  332.560661]  [<80ac6e90>] ? kobject_cleanup+0x90/0x1b0
+[  332.565769]  [<80f2ec77>] ? __mutex_lock_slowpath+0x217/0x370
+[  332.571414]  [<80ac6d25>] kobject_put+0x25/0x60
+[  332.575963]  [<80ac6d25>] ? kobject_put+0x25/0x60
+[  332.580572]  [<8086d3ed>] ? preempt_count_sub+0xad/0x100
+[  332.586067]  [<80b7a0b4>] put_device+0x14/0x20
+[  332.590361]  [<80bae947>] scsi_device_put+0x37/0x60
+[  332.595299]  [<80bbdaaf>] scsi_disk_put+0x2f/0x50
+[  332.599850]  [<80bbe2c3>] sd_release+0x33/0x60
+[  332.604332]  [<80978df0>] __blkdev_put+0x130/0x160
+[  332.609050]  [<80978da4>] __blkdev_put+0xe4/0x160
+[  332.613693]  [<80978e69>] blkdev_put+0x49/0x130
+[  332.618090]  [<80948111>] kill_block_super+0x41/0x70
+[  332.623109]  [<80a4055e>] exfat_debug_kill_sb+0x3e/0x50
+[  332.628277]  [<809482e3>] deactivate_locked_super+0x33/0x60
+[  332.633771]  [<80948d27>] deactivate_super+0x47/0x60
+[  332.638600]  [<80960fbd>] mntput_no_expire+0x9d/0x110
+[  332.643743]  [<80961fdf>] SyS_umount+0xaf/0x360
+[  332.648127]  [<80f30e7a>] sysenter_do_call+0x12/0x27
+[  332.653203] ---[ end trace a338f233f0215f0b ]---
+[  332.845878] fan54x_charger: charging hrtimer working
+[  332.845921] fan54x_charger: trigger wtd charging work
+[  337.795773] fan54x_charger: charging hrtimer working
+[  337.795806] fan54x_charger: trigger wtd charging work
+[  342.745704] fan54x_charger: charging hrtimer working
+[  342.745711] fan54x_charger: trigger wtd charging work
+[  347.695599] fan54x_charger: charging hrtimer working
+[  347.696048] fan54x_charger: trigger wtd charging work
+[  352.645475] fan54x_charger: charging hrtimer working
+[  352.650389] fan54x_charger: trigger wtd charging work
+[  357.590367] fan54x_charger: charging hrtimer working
+[  357.595583] fan54x_charger: trigger wtd charging work
+[  362.535336] fan54x_charger: charging hrtimer working
+[  362.540538] fan54x_charger: trigger wtd charging work
+[  367.480382] fan54x_charger: charging hrtimer working
+[  367.485539] fan54x_charger: trigger wtd charging work
+[  372.425459] fan54x_charger: charging hrtimer working
+[  372.430531] fan54x_charger: trigger wtd charging work
+[  377.370467] fan54x_charger: charging hrtimer working
+[  377.375678] fan54x_charger: trigger wtd charging work
+[  382.315528] fan54x_charger: charging hrtimer working
+[  382.320794] fan54x_charger: trigger wtd charging work
+[  387.260562] fan54x_charger: charging hrtimer working
+[  387.265886] fan54x_charger: trigger wtd charging work
+[  392.205668] fan54x_charger: charging hrtimer working
+[  392.210822] fan54x_charger: trigger wtd charging work
+[  397.150764] fan54x_charger: charging hrtimer working
+[  397.155996] fan54x_charger: trigger wtd charging work
+[  402.095893] fan54x_charger: charging hrtimer working
+[  402.101085] fan54x_charger: trigger wtd charging work
+[  407.040967] fan54x_charger: charging hrtimer working
+[  407.044136] fan54x_charger: trigger wtd charging work
+[  411.991039] fan54x_charger: charging hrtimer working
+[  411.996102] fan54x_charger: trigger wtd charging work
+[  416.936112] fan54x_charger: charging hrtimer working
+[  416.941301] fan54x_charger: trigger wtd charging work
+[  421.881135] fan54x_charger: charging hrtimer working
+[  421.886288] fan54x_charger: trigger wtd charging work
+[  426.826152] fan54x_charger: charging hrtimer working
+[  426.826786] fan54x_charger: trigger wtd charging work
+[  431.776163] fan54x_charger: charging hrtimer working
+[  431.781211] fan54x_charger: trigger wtd charging work
+[  436.721176] fan54x_charger: charging hrtimer working
+[  436.726246] fan54x_charger: trigger wtd charging work
