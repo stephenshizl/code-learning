@@ -1,0 +1,8 @@
+window_sizes 1600 933 400 1200 711 86
+show_stereotypes
+selected classview_ref 128002 // BmService
+open
+  
+  package_ref 128002 // poweronselftest
+end
+end
