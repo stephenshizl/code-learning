@@ -1,0 +1,309 @@
+Dependencies for Project 'Project', Target 'LSM303DLHC_I2C1': (DO NOT MODIFY !)
+F (..\User\main.c)(0x58676EF5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+I (F:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (F:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (F:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+I (..\User\I2C.h)(0x5199A604)
+I (..\User\LSM303.h)(0x5199A604)
+I (..\User\usart.h)(0x58676E62)
+F (..\User\stm32f10x_it.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\stm32f10x_it.o --omf_browse .\out\stm32f10x_it.crf --depend .\out\stm32f10x_it.d)
+I (..\User\stm32f10x_it.h)(0x5199A604)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\User\usart.c)(0x58676E54)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\usart.o --omf_browse .\out\usart.crf --depend .\out\usart.d)
+I (..\User\usart.h)(0x58676E62)
+I (F:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\User\LSM303.c)(0x58676E76)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\lsm303.o --omf_browse .\out\lsm303.crf --depend .\out\lsm303.d)
+I (..\User\LSM303.h)(0x5199A604)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\User\usart.h)(0x58676E62)
+I (F:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\User\I2C.h)(0x5199A604)
+F (..\User\I2C.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\i2c.o --omf_browse .\out\i2c.crf --depend .\out\i2c.d)
+I (..\User\I2C.h)(0x5199A604)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\Lib\src\stm32f10x_gpio.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\stm32f10x_gpio.o --omf_browse .\out\stm32f10x_gpio.crf --depend .\out\stm32f10x_gpio.d)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\Lib\src\stm32f10x_rcc.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\stm32f10x_rcc.o --omf_browse .\out\stm32f10x_rcc.crf --depend .\out\stm32f10x_rcc.d)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\Lib\src\stm32f10x_usart.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\stm32f10x_usart.o --omf_browse .\out\stm32f10x_usart.crf --depend .\out\stm32f10x_usart.d)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\Lib\src\stm32f10x_i2c.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\stm32f10x_i2c.o --omf_browse .\out\stm32f10x_i2c.crf --depend .\out\stm32f10x_i2c.d)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\Lib\cmsis\core_cm3.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\core_cm3.o --omf_browse .\out\core_cm3.crf --depend .\out\core_cm3.d)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\User\system_stm32f10x.c)(0x5199A604)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\User -I..\Lib\cmsis -I..\Lib\inc-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\out\system_stm32f10x.o --omf_browse .\out\system_stm32f10x.crf --depend .\out\system_stm32f10x.d)
+I (..\Lib\cmsis\stm32f10x.h)(0x5199A604)
+I (..\Lib\cmsis\core_cm3.h)(0x5199A604)
+I (F:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Lib\cmsis\system_stm32f10x.h)(0x5199A604)
+I (..\User\stm32f10x_conf.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_adc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_can.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_cec.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_crc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dac.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_dma.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_exti.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_flash.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_spi.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_tim.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_usart.h)(0x5199A604)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x5199A604)
+I (..\Lib\inc\misc.h)(0x5199A604)
+F (..\Lib\startup\arm\startup_stm32f10x_hd.s)(0x5199A604)(--cpu Cortex-M3 -g --apcs=interwork -I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\ST\STM32F10x--list .\list\startup_stm32f10x_hd.lst --xref -o .\out\startup_stm32f10x_hd.o --depend .\out\startup_stm32f10x_hd.d)

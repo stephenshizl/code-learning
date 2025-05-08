@@ -1,0 +1,3 @@
+/home/stephen/work/t710/XR_T710/vendor/sprd/modules/devdrv/input/misc/sc7lc30/sc7lc30.ko
+/home/stephen/work/t710/XR_T710/vendor/sprd/modules/devdrv/input/misc/sc7lc30/sc7lc30.o
+

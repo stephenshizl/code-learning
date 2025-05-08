@@ -1,0 +1,12 @@
+#
+# Makefile for sc7lc30 sensor driver.
+#
+config ALT_INPUT_SC7LC30
+	tristate "SC7LC30 light and proximity sensor device with I2C bus"
+	depends on I2C
+	default n
+	help
+	  Say Y here if you have a SC7LC30 device on the board and use I2C
+	  communication, else say N.
+
+	  To compile this driver as a module, choose M here.

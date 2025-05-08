@@ -1,0 +1,2 @@
+on post-fs
+    insmod /vendor/lib/modules/sc7lc30.ko

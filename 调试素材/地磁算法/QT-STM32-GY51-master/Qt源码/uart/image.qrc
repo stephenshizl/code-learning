@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/compass">
+        <file>0.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,3 @@
+/home/stephen/work/t710/XR_T710/vendor/sprd/modules/devdrv/input/misc/qmi8610/qmi8610.ko
+/home/stephen/work/t710/XR_T710/vendor/sprd/modules/devdrv/input/misc/qmi8610/qmi8610.o
+

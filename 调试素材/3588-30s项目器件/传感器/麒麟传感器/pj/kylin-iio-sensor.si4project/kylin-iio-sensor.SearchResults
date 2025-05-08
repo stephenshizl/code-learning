@@ -1,0 +1,61 @@
+---- pollfd_iio Matches (6 in 2 files) ----
+HWSensorBase.cpp (F:\learning\gitee\material-information\传感器移植\iio子系统\STMems_Android_Sensor_HAL_IIO-STMems_Android_Sensor_HAL_IIO\src) line 255 : 
+
+	pollfd_iio[0].fd = open(buffer_path, O_RDONLY | O_NONBLOCK);
+	if (pollfd_iio[0].fd < 0) {
+		ALOGE("%s: Failed to open iio char device (%s)." ,
+		      GetName(), buffer_path);
+		goto free_buffer_path;
+HWSensorBase.cpp (F:\learning\gitee\material-information\传感器移植\iio子系统\STMems_Android_Sensor_HAL_IIO-STMems_Android_Sensor_HAL_IIO\src) line 262 : 
+
+	pollfd_iio[0].events = POLLIN;
+
+	if (!ioctl(pollfd_iio[0].fd, _IOR('i', 0x90, int), &pollfd_iio[1].fd)) {
+		pollfd_iio[1].events = POLLIN;
+		has_event_channels = true;
+	} else {
+		has_event_channels= false;
+HWSensorBase.cpp (F:\learning\gitee\material-information\传感器移植\iio子系统\STMems_Android_Sensor_HAL_IIO-STMems_Android_Sensor_HAL_IIO\src) line 320 : 
+
+	close(pollfd_iio[0].fd);
+	close(pollfd_iio[1].fd);
+}
+
+#ifdef CONFIG_ST_HAL_HAS_SELFTEST_FUNCTIONS
+HWSensorBase.cpp (F:\learning\gitee\material-information\传感器移植\iio子系统\STMems_Android_Sensor_HAL_IIO-STMems_Android_Sensor_HAL_IIO\src) line 670 : 
+	while (true) {
+		err = poll(&pollfd_iio[0], 1, -1);
+		if (err <= 0)
+			continue;
+
+		if (pollfd_iio[0].revents & POLLIN) {
+			read_size = read(pollfd_iio[0].fd,
+					 data,
+					 hw_fifo_len * scan_size * HW_SENSOR_BASE_DEFAULT_IIO_BUFFER_LEN);
+			if (read_size <= 0) {
+HWSensorBase.cpp (F:\learning\gitee\material-information\传感器移植\iio子系统\STMems_Android_Sensor_HAL_IIO-STMems_Android_Sensor_HAL_IIO\src) line 722 : 
+	while (true) {
+		err = poll(&pollfd_iio[1], 1, -1);
+		if (err <= 0)
+			continue;
+
+		if (pollfd_iio[1].revents & POLLIN) {
+			read_size = read(pollfd_iio[1].fd, event_data,
+					 10 * sizeof(struct device_iio_events));
+			if (read_size <= 0) {
+				ALOGE("%s: Failed to read event data from iio char device.",
+HWSensorBase in HWSensorBase.h (F:\learning\gitee\material-information\传感器移植\iio子系统\STMems_Android_Sensor_HAL_IIO-STMems_Android_Sensor_HAL_IIO\src) : 
+	ssize_t scan_size;
+	struct pollfd pollfd_iio[2];
+	FlushRequested flush_requested;
+	HWSensorBaseCommonData common_data;
+	ChangeODRTimestampStack odr_switch;
+---- pollfd_iio Search Errors Encountered (7) ----
+The following 7 files could not be processed:
+F:\work-2024\3588-30s项目\器件\传感器\麒麟传感器\iio-sensor-proxy\docs\html\home.png : File could not be opened.
+F:\work-2024\3588-30s项目\器件\传感器\麒麟传感器\iio-sensor-proxy\docs\html\left-insensitive.png : File could not be opened.
+F:\work-2024\3588-30s项目\器件\传感器\麒麟传感器\iio-sensor-proxy\docs\html\left.png : File could not be opened.
+F:\work-2024\3588-30s项目\器件\传感器\麒麟传感器\iio-sensor-proxy\docs\html\right-insensitive.png : File could not be opened.
+F:\work-2024\3588-30s项目\器件\传感器\麒麟传感器\iio-sensor-proxy\docs\html\right.png : File could not be opened.
+F:\work-2024\3588-30s项目\器件\传感器\麒麟传感器\iio-sensor-proxy\docs\html\up-insensitive.png : File could not be opened.
+F:\work-2024\3588-30s项目\器件\传感器\麒麟传感器\iio-sensor-proxy\docs\html\up.png : File could not be opened.

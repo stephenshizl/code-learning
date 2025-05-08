@@ -1,0 +1,19 @@
+ qmi8610@6b {
+                compatible = "qst,qmi8610";
+                reg = <0x6b>;
+                qst,layout = <1>;
+                qst,poll_report = <1>;
+                                qmi8610,reset-gpio = <&ap_gpio 92 0>;
+                                qmi8610,int1-gpio = <&ap_gpio 121 0>;
+                                qmi8610,int2-gpio = <&ap_gpio 123 0>;
+        };
+        qmc6308@2c{
+                compatible = "qst,qmc6308";
+                qst,layout = <3>;
+                reg = <0x2c>;
+        };
+                sc7lc30@39{
+                        compatible = "SILAN,Silan_alsps";
+                        reg = <0x39>;
+                        gpios = <&ap_gpio 122 0>;
+                };

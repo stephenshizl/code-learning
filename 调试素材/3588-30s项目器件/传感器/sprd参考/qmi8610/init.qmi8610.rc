@@ -1,0 +1,2 @@
+on post-fs
+    insmod /vendor/lib/modules/qmi8610.ko
